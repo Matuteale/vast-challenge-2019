@@ -1,0 +1,1971 @@
+month,day,hour,location,unique_accounts_count
+4,6,0,Broadview,2
+4,6,0,Cheddarford,2
+4,6,0,Downtown,1
+4,6,0,East Parton,2
+4,6,0,Old Town,2
+4,6,0,Scenic Vista,1
+4,6,0,Southton,2
+4,6,0,Southwest,3
+4,6,0,Terrapin Springs,4
+4,6,0,West Parton,2
+4,6,0,Weston,2
+4,6,1,Broadview,1
+4,6,1,Downtown,2
+4,6,1,Easton,1
+4,6,1,Old Town,1
+4,6,1,Palace Hills,2
+4,6,1,Safe Town,1
+4,6,1,Southton,3
+4,6,1,Southwest,1
+4,6,1,Terrapin Springs,2
+4,6,1,West Parton,1
+4,6,1,Weston,3
+4,6,2,Chapparal,2
+4,6,2,Downtown,2
+4,6,2,Easton,1
+4,6,2,Northwest,2
+4,6,2,Old Town,3
+4,6,2,Palace Hills,1
+4,6,2,Safe Town,2
+4,6,2,Scenic Vista,2
+4,6,2,Southwest,1
+4,6,2,Terrapin Springs,2
+4,6,2,Weston,2
+4,6,3,Broadview,2
+4,6,3,Cheddarford,2
+4,6,3,Downtown,5
+4,6,3,East Parton,1
+4,6,3,Northwest,1
+4,6,3,Oak Willow,4
+4,6,3,Old Town,3
+4,6,3,Palace Hills,1
+4,6,3,Pepper Mill,4
+4,6,3,Safe Town,2
+4,6,3,Scenic Vista,1
+4,6,3,Southton,2
+4,6,3,Southwest,2
+4,6,3,Terrapin Springs,3
+4,6,3,Weston,1
+4,6,4,Broadview,1
+4,6,4,Chapparal,3
+4,6,4,Cheddarford,3
+4,6,4,Downtown,9
+4,6,4,Easton,2
+4,6,4,Northwest,6
+4,6,4,Oak Willow,6
+4,6,4,Old Town,4
+4,6,4,Palace Hills,2
+4,6,4,Pepper Mill,1
+4,6,4,Safe Town,8
+4,6,4,Scenic Vista,3
+4,6,4,Southton,6
+4,6,4,Southwest,5
+4,6,4,Terrapin Springs,2
+4,6,4,West Parton,5
+4,6,4,Weston,9
+4,6,5,Broadview,5
+4,6,5,Chapparal,5
+4,6,5,Cheddarford,6
+4,6,5,Downtown,14
+4,6,5,East Parton,2
+4,6,5,Easton,4
+4,6,5,Northwest,7
+4,6,5,Oak Willow,13
+4,6,5,Old Town,7
+4,6,5,Palace Hills,5
+4,6,5,Pepper Mill,1
+4,6,5,Safe Town,11
+4,6,5,Scenic Vista,3
+4,6,5,Southton,12
+4,6,5,Southwest,10
+4,6,5,Terrapin Springs,10
+4,6,5,West Parton,5
+4,6,5,Weston,12
+4,6,6,Broadview,11
+4,6,6,Chapparal,4
+4,6,6,Cheddarford,9
+4,6,6,Downtown,19
+4,6,6,East Parton,5
+4,6,6,Easton,1
+4,6,6,Northwest,11
+4,6,6,Oak Willow,10
+4,6,6,Old Town,13
+4,6,6,Palace Hills,6
+4,6,6,Pepper Mill,9
+4,6,6,Safe Town,12
+4,6,6,Scenic Vista,14
+4,6,6,Southton,28
+4,6,6,Southwest,12
+4,6,6,Terrapin Springs,15
+4,6,6,West Parton,6
+4,6,6,Weston,26
+4,6,7,Broadview,14
+4,6,7,Chapparal,7
+4,6,7,Cheddarford,9
+4,6,7,Downtown,20
+4,6,7,East Parton,4
+4,6,7,Easton,5
+4,6,7,Northwest,18
+4,6,7,Oak Willow,11
+4,6,7,Old Town,13
+4,6,7,Palace Hills,10
+4,6,7,Pepper Mill,5
+4,6,7,Safe Town,20
+4,6,7,Scenic Vista,13
+4,6,7,Southton,32
+4,6,7,Southwest,22
+4,6,7,Terrapin Springs,9
+4,6,7,West Parton,13
+4,6,7,Weston,30
+4,6,7,Wilson Forest,1
+4,6,8,Broadview,33
+4,6,8,Chapparal,22
+4,6,8,Cheddarford,17
+4,6,8,Downtown,39
+4,6,8,East Parton,7
+4,6,8,Easton,13
+4,6,8,Northwest,37
+4,6,8,Oak Willow,18
+4,6,8,Old Town,29
+4,6,8,Palace Hills,16
+4,6,8,Pepper Mill,5
+4,6,8,Safe Town,14
+4,6,8,Scenic Vista,38
+4,6,8,Southton,40
+4,6,8,Southwest,23
+4,6,8,Terrapin Springs,32
+4,6,8,UNKNOWN,1
+4,6,8,West Parton,24
+4,6,8,Weston,53
+4,6,9,Broadview,29
+4,6,9,Chapparal,18
+4,6,9,Cheddarford,19
+4,6,9,Downtown,49
+4,6,9,East Parton,13
+4,6,9,Easton,15
+4,6,9,Northwest,22
+4,6,9,Oak Willow,13
+4,6,9,Old Town,37
+4,6,9,Palace Hills,15
+4,6,9,Pepper Mill,10
+4,6,9,Safe Town,20
+4,6,9,Scenic Vista,22
+4,6,9,Southton,34
+4,6,9,Southwest,37
+4,6,9,Terrapin Springs,24
+4,6,9,West Parton,19
+4,6,9,Weston,48
+4,6,10,Broadview,26
+4,6,10,Chapparal,19
+4,6,10,Cheddarford,28
+4,6,10,Downtown,60
+4,6,10,East Parton,15
+4,6,10,Easton,19
+4,6,10,Northwest,32
+4,6,10,Oak Willow,29
+4,6,10,Old Town,38
+4,6,10,Palace Hills,20
+4,6,10,Pepper Mill,18
+4,6,10,Safe Town,24
+4,6,10,Scenic Vista,41
+4,6,10,Southton,55
+4,6,10,Southwest,40
+4,6,10,Terrapin Springs,33
+4,6,10,West Parton,16
+4,6,10,Weston,64
+4,6,11,Broadview,26
+4,6,11,Chapparal,12
+4,6,11,Cheddarford,15
+4,6,11,Downtown,51
+4,6,11,East Parton,11
+4,6,11,Easton,19
+4,6,11,Northwest,25
+4,6,11,Oak Willow,20
+4,6,11,Old Town,24
+4,6,11,Palace Hills,17
+4,6,11,Pepper Mill,13
+4,6,11,Safe Town,33
+4,6,11,Scenic Vista,33
+4,6,11,Southton,52
+4,6,11,Southwest,33
+4,6,11,Terrapin Springs,26
+4,6,11,West Parton,15
+4,6,11,Weston,50
+4,6,11,Wilson Forest,2
+4,6,12,Broadview,27
+4,6,12,Chapparal,11
+4,6,12,Cheddarford,23
+4,6,12,Downtown,48
+4,6,12,East Parton,8
+4,6,12,Easton,10
+4,6,12,Northwest,31
+4,6,12,Oak Willow,23
+4,6,12,Old Town,23
+4,6,12,Palace Hills,10
+4,6,12,Pepper Mill,9
+4,6,12,Safe Town,23
+4,6,12,Scenic Vista,28
+4,6,12,Southton,47
+4,6,12,Southwest,22
+4,6,12,Terrapin Springs,15
+4,6,12,West Parton,20
+4,6,12,Weston,56
+4,6,13,Broadview,26
+4,6,13,Chapparal,19
+4,6,13,Cheddarford,16
+4,6,13,Downtown,45
+4,6,13,East Parton,11
+4,6,13,Easton,18
+4,6,13,Northwest,29
+4,6,13,Oak Willow,25
+4,6,13,Old Town,30
+4,6,13,Palace Hills,18
+4,6,13,Pepper Mill,16
+4,6,13,Safe Town,21
+4,6,13,Scenic Vista,30
+4,6,13,Southton,50
+4,6,13,Southwest,28
+4,6,13,Terrapin Springs,24
+4,6,13,West Parton,16
+4,6,13,Weston,51
+4,6,13,Wilson Forest,1
+4,6,14,Broadview,39
+4,6,14,Chapparal,29
+4,6,14,Cheddarford,25
+4,6,14,Downtown,65
+4,6,14,East Parton,26
+4,6,14,Easton,22
+4,6,14,Northwest,49
+4,6,14,Oak Willow,35
+4,6,14,Old Town,64
+4,6,14,Palace Hills,36
+4,6,14,Pepper Mill,23
+4,6,14,Safe Town,31
+4,6,14,Scenic Vista,43
+4,6,14,Southton,56
+4,6,14,Southwest,59
+4,6,14,Terrapin Springs,51
+4,6,14,UNKNOWN,2
+4,6,14,West Parton,34
+4,6,14,Weston,78
+4,6,14,Wilson Forest,2
+4,6,15,Broadview,48
+4,6,15,Chapparal,37
+4,6,15,Cheddarford,50
+4,6,15,Downtown,75
+4,6,15,East Parton,29
+4,6,15,Easton,25
+4,6,15,Northwest,63
+4,6,15,Oak Willow,30
+4,6,15,Old Town,55
+4,6,15,Palace Hills,52
+4,6,15,Pepper Mill,15
+4,6,15,Safe Town,36
+4,6,15,Scenic Vista,74
+4,6,15,Southton,83
+4,6,15,Southwest,71
+4,6,15,Terrapin Springs,48
+4,6,15,West Parton,30
+4,6,15,Weston,92
+4,6,15,Wilson Forest,2
+4,6,16,Broadview,39
+4,6,16,Chapparal,20
+4,6,16,Cheddarford,29
+4,6,16,Downtown,68
+4,6,16,East Parton,12
+4,6,16,Easton,15
+4,6,16,Northwest,27
+4,6,16,Oak Willow,21
+4,6,16,Old Town,30
+4,6,16,Palace Hills,24
+4,6,16,Pepper Mill,17
+4,6,16,Safe Town,27
+4,6,16,Scenic Vista,46
+4,6,16,Southton,57
+4,6,16,Southwest,39
+4,6,16,Terrapin Springs,42
+4,6,16,West Parton,20
+4,6,16,Weston,67
+4,6,17,Broadview,20
+4,6,17,Chapparal,16
+4,6,17,Cheddarford,24
+4,6,17,Downtown,51
+4,6,17,East Parton,10
+4,6,17,Easton,21
+4,6,17,Northwest,33
+4,6,17,Oak Willow,23
+4,6,17,Old Town,30
+4,6,17,Palace Hills,17
+4,6,17,Pepper Mill,11
+4,6,17,Safe Town,20
+4,6,17,Scenic Vista,24
+4,6,17,Southton,62
+4,6,17,Southwest,35
+4,6,17,Terrapin Springs,25
+4,6,17,West Parton,23
+4,6,17,Weston,52
+4,6,17,Wilson Forest,1
+4,6,18,Broadview,20
+4,6,18,Chapparal,10
+4,6,18,Cheddarford,14
+4,6,18,Downtown,32
+4,6,18,East Parton,4
+4,6,18,Easton,15
+4,6,18,Northwest,19
+4,6,18,Oak Willow,19
+4,6,18,Old Town,20
+4,6,18,Palace Hills,13
+4,6,18,Pepper Mill,10
+4,6,18,Safe Town,17
+4,6,18,Scenic Vista,23
+4,6,18,Southton,23
+4,6,18,Southwest,16
+4,6,18,Terrapin Springs,17
+4,6,18,West Parton,16
+4,6,18,Weston,39
+4,6,19,Broadview,30
+4,6,19,Chapparal,23
+4,6,19,Cheddarford,26
+4,6,19,Downtown,59
+4,6,19,East Parton,16
+4,6,19,Easton,14
+4,6,19,Northwest,43
+4,6,19,Oak Willow,21
+4,6,19,Old Town,29
+4,6,19,Palace Hills,31
+4,6,19,Pepper Mill,20
+4,6,19,Safe Town,17
+4,6,19,Scenic Vista,48
+4,6,19,Southton,54
+4,6,19,Southwest,40
+4,6,19,Terrapin Springs,40
+4,6,19,UNKNOWN,1
+4,6,19,West Parton,39
+4,6,19,Weston,66
+4,6,20,Broadview,15
+4,6,20,Chapparal,6
+4,6,20,Cheddarford,14
+4,6,20,Downtown,33
+4,6,20,East Parton,11
+4,6,20,Easton,12
+4,6,20,Northwest,22
+4,6,20,Oak Willow,17
+4,6,20,Old Town,24
+4,6,20,Palace Hills,9
+4,6,20,Pepper Mill,7
+4,6,20,Safe Town,12
+4,6,20,Scenic Vista,20
+4,6,20,Southton,24
+4,6,20,Southwest,26
+4,6,20,Terrapin Springs,28
+4,6,20,West Parton,13
+4,6,20,Weston,29
+4,6,21,Broadview,9
+4,6,21,Chapparal,9
+4,6,21,Cheddarford,12
+4,6,21,Downtown,24
+4,6,21,East Parton,3
+4,6,21,Easton,6
+4,6,21,Northwest,14
+4,6,21,Oak Willow,7
+4,6,21,Old Town,10
+4,6,21,Palace Hills,7
+4,6,21,Pepper Mill,8
+4,6,21,Safe Town,10
+4,6,21,Scenic Vista,10
+4,6,21,Southton,25
+4,6,21,Southwest,21
+4,6,21,Terrapin Springs,12
+4,6,21,West Parton,10
+4,6,21,Weston,28
+4,6,22,Broadview,3
+4,6,22,Chapparal,5
+4,6,22,Cheddarford,4
+4,6,22,Downtown,14
+4,6,22,Easton,3
+4,6,22,Northwest,2
+4,6,22,Oak Willow,9
+4,6,22,Old Town,7
+4,6,22,Palace Hills,6
+4,6,22,Pepper Mill,3
+4,6,22,Safe Town,4
+4,6,22,Scenic Vista,9
+4,6,22,Southton,9
+4,6,22,Southwest,8
+4,6,22,Terrapin Springs,13
+4,6,22,West Parton,5
+4,6,22,Weston,11
+4,6,23,Broadview,4
+4,6,23,Chapparal,4
+4,6,23,Cheddarford,3
+4,6,23,Downtown,8
+4,6,23,East Parton,4
+4,6,23,Easton,2
+4,6,23,Northwest,8
+4,6,23,Oak Willow,6
+4,6,23,Old Town,8
+4,6,23,Palace Hills,6
+4,6,23,Pepper Mill,2
+4,6,23,Safe Town,3
+4,6,23,Scenic Vista,4
+4,6,23,Southton,7
+4,6,23,Southwest,6
+4,6,23,Terrapin Springs,4
+4,6,23,West Parton,7
+4,6,23,Weston,8
+4,7,0,Broadview,2
+4,7,0,Chapparal,2
+4,7,0,Cheddarford,1
+4,7,0,Downtown,7
+4,7,0,Northwest,2
+4,7,0,Oak Willow,2
+4,7,0,Old Town,4
+4,7,0,Palace Hills,1
+4,7,0,Pepper Mill,2
+4,7,0,Scenic Vista,1
+4,7,0,Southton,9
+4,7,0,Southwest,3
+4,7,0,Terrapin Springs,2
+4,7,0,West Parton,2
+4,7,0,Weston,6
+4,7,1,Cheddarford,1
+4,7,1,Downtown,2
+4,7,1,Northwest,1
+4,7,1,Oak Willow,1
+4,7,1,Old Town,1
+4,7,1,Palace Hills,2
+4,7,1,Scenic Vista,1
+4,7,1,Southton,3
+4,7,1,Southwest,3
+4,7,1,Terrapin Springs,1
+4,7,1,West Parton,1
+4,7,1,Weston,2
+4,7,2,Broadview,1
+4,7,2,Chapparal,3
+4,7,2,Cheddarford,2
+4,7,2,Downtown,5
+4,7,2,East Parton,2
+4,7,2,Easton,1
+4,7,2,Northwest,2
+4,7,2,Oak Willow,4
+4,7,2,Old Town,3
+4,7,2,Palace Hills,2
+4,7,2,Pepper Mill,2
+4,7,2,Scenic Vista,4
+4,7,2,Southton,4
+4,7,2,Southwest,2
+4,7,2,Terrapin Springs,1
+4,7,2,West Parton,5
+4,7,2,Weston,7
+4,7,3,Broadview,6
+4,7,3,Chapparal,1
+4,7,3,Cheddarford,2
+4,7,3,Downtown,7
+4,7,3,East Parton,2
+4,7,3,Northwest,4
+4,7,3,Oak Willow,1
+4,7,3,Old Town,2
+4,7,3,Palace Hills,3
+4,7,3,Pepper Mill,3
+4,7,3,Scenic Vista,1
+4,7,3,Southton,2
+4,7,3,Southwest,2
+4,7,3,Terrapin Springs,1
+4,7,3,West Parton,2
+4,7,3,Weston,5
+4,7,4,Broadview,5
+4,7,4,Chapparal,1
+4,7,4,Cheddarford,3
+4,7,4,Downtown,7
+4,7,4,East Parton,1
+4,7,4,Northwest,3
+4,7,4,Oak Willow,1
+4,7,4,Old Town,2
+4,7,4,Palace Hills,1
+4,7,4,Pepper Mill,1
+4,7,4,Safe Town,3
+4,7,4,Scenic Vista,4
+4,7,4,Southton,7
+4,7,4,Southwest,3
+4,7,4,Terrapin Springs,3
+4,7,4,West Parton,2
+4,7,4,Weston,7
+4,7,5,Chapparal,1
+4,7,5,Cheddarford,2
+4,7,5,Downtown,6
+4,7,5,East Parton,4
+4,7,5,Easton,2
+4,7,5,Northwest,4
+4,7,5,Oak Willow,3
+4,7,5,Old Town,3
+4,7,5,Palace Hills,1
+4,7,5,Pepper Mill,4
+4,7,5,Safe Town,11
+4,7,5,Scenic Vista,8
+4,7,5,Southton,9
+4,7,5,Southwest,10
+4,7,5,Terrapin Springs,5
+4,7,5,West Parton,3
+4,7,5,Weston,16
+4,7,6,Broadview,8
+4,7,6,Chapparal,10
+4,7,6,Cheddarford,5
+4,7,6,Downtown,19
+4,7,6,East Parton,9
+4,7,6,Easton,7
+4,7,6,Northwest,10
+4,7,6,Oak Willow,10
+4,7,6,Old Town,8
+4,7,6,Palace Hills,6
+4,7,6,Pepper Mill,5
+4,7,6,Safe Town,11
+4,7,6,Scenic Vista,17
+4,7,6,Southton,23
+4,7,6,Southwest,18
+4,7,6,Terrapin Springs,7
+4,7,6,UNKNOWN,1
+4,7,6,West Parton,9
+4,7,6,Weston,34
+4,7,7,<Location with-held due to contract>,1
+4,7,7,Broadview,19
+4,7,7,Chapparal,9
+4,7,7,Cheddarford,18
+4,7,7,Downtown,36
+4,7,7,East Parton,8
+4,7,7,Easton,13
+4,7,7,Northwest,34
+4,7,7,Oak Willow,20
+4,7,7,Old Town,15
+4,7,7,Palace Hills,13
+4,7,7,Pepper Mill,12
+4,7,7,Safe Town,17
+4,7,7,Scenic Vista,22
+4,7,7,Southton,40
+4,7,7,Southwest,21
+4,7,7,Terrapin Springs,11
+4,7,7,West Parton,13
+4,7,7,Weston,34
+4,7,7,Wilson Forest,1
+4,7,8,<Location with-held due to contract>,1
+4,7,8,Broadview,25
+4,7,8,Chapparal,30
+4,7,8,Cheddarford,31
+4,7,8,Downtown,58
+4,7,8,East Parton,14
+4,7,8,Easton,4
+4,7,8,Northwest,30
+4,7,8,Oak Willow,21
+4,7,8,Old Town,41
+4,7,8,Palace Hills,26
+4,7,8,Pepper Mill,15
+4,7,8,Safe Town,17
+4,7,8,Scenic Vista,52
+4,7,8,Southton,43
+4,7,8,Southwest,24
+4,7,8,Terrapin Springs,35
+4,7,8,UNKNOWN,1
+4,7,8,West Parton,30
+4,7,8,Weston,65
+4,7,9,Broadview,25
+4,7,9,Chapparal,10
+4,7,9,Cheddarford,11
+4,7,9,Downtown,37
+4,7,9,East Parton,8
+4,7,9,Easton,8
+4,7,9,Northwest,10
+4,7,9,Oak Willow,9
+4,7,9,Old Town,14
+4,7,9,Palace Hills,9
+4,7,9,Pepper Mill,6
+4,7,9,Safe Town,8
+4,7,9,Scenic Vista,22
+4,7,9,Southton,24
+4,7,9,Southwest,27
+4,7,9,Terrapin Springs,17
+4,7,9,West Parton,18
+4,7,9,Weston,26
+4,7,9,Wilson Forest,1
+4,7,10,Broadview,26
+4,7,10,Chapparal,10
+4,7,10,Cheddarford,25
+4,7,10,Downtown,41
+4,7,10,East Parton,11
+4,7,10,Easton,11
+4,7,10,Northwest,26
+4,7,10,Oak Willow,17
+4,7,10,Old Town,27
+4,7,10,Palace Hills,9
+4,7,10,Pepper Mill,6
+4,7,10,Safe Town,23
+4,7,10,Scenic Vista,30
+4,7,10,Southton,39
+4,7,10,Southwest,27
+4,7,10,Terrapin Springs,24
+4,7,10,West Parton,11
+4,7,10,Weston,30
+4,7,10,Wilson Forest,1
+4,7,11,Broadview,36
+4,7,11,Chapparal,13
+4,7,11,Cheddarford,28
+4,7,11,Downtown,44
+4,7,11,East Parton,12
+4,7,11,Easton,10
+4,7,11,Northwest,34
+4,7,11,Oak Willow,21
+4,7,11,Old Town,32
+4,7,11,Palace Hills,20
+4,7,11,Pepper Mill,10
+4,7,11,Safe Town,17
+4,7,11,Scenic Vista,28
+4,7,11,Southton,46
+4,7,11,Southwest,27
+4,7,11,Terrapin Springs,27
+4,7,11,West Parton,23
+4,7,11,Weston,54
+4,7,12,<Location with-held due to contract>,1
+4,7,12,Broadview,39
+4,7,12,Chapparal,22
+4,7,12,Cheddarford,25
+4,7,12,Downtown,60
+4,7,12,East Parton,12
+4,7,12,Easton,18
+4,7,12,Northwest,31
+4,7,12,Oak Willow,25
+4,7,12,Old Town,30
+4,7,12,Palace Hills,19
+4,7,12,Pepper Mill,15
+4,7,12,Safe Town,18
+4,7,12,Scenic Vista,37
+4,7,12,Southton,49
+4,7,12,Southwest,33
+4,7,12,Terrapin Springs,35
+4,7,12,UNKNOWN,1
+4,7,12,West Parton,20
+4,7,12,Weston,59
+4,7,13,Broadview,30
+4,7,13,Chapparal,14
+4,7,13,Cheddarford,20
+4,7,13,Downtown,44
+4,7,13,East Parton,9
+4,7,13,Easton,10
+4,7,13,Northwest,28
+4,7,13,Oak Willow,18
+4,7,13,Old Town,30
+4,7,13,Palace Hills,15
+4,7,13,Pepper Mill,4
+4,7,13,Safe Town,22
+4,7,13,Scenic Vista,42
+4,7,13,Southton,45
+4,7,13,Southwest,34
+4,7,13,Terrapin Springs,19
+4,7,13,UNKNOWN,1
+4,7,13,West Parton,23
+4,7,13,Weston,57
+4,7,13,Wilson Forest,1
+4,7,14,Broadview,23
+4,7,14,Chapparal,18
+4,7,14,Cheddarford,15
+4,7,14,Downtown,48
+4,7,14,East Parton,9
+4,7,14,Easton,12
+4,7,14,Northwest,29
+4,7,14,Oak Willow,27
+4,7,14,Old Town,30
+4,7,14,Palace Hills,18
+4,7,14,Pepper Mill,10
+4,7,14,Safe Town,17
+4,7,14,Scenic Vista,22
+4,7,14,Southton,35
+4,7,14,Southwest,28
+4,7,14,Terrapin Springs,16
+4,7,14,West Parton,17
+4,7,14,Weston,44
+4,7,14,Wilson Forest,2
+4,7,15,Broadview,25
+4,7,15,Chapparal,23
+4,7,15,Cheddarford,15
+4,7,15,Downtown,38
+4,7,15,East Parton,16
+4,7,15,Easton,8
+4,7,15,Northwest,25
+4,7,15,Oak Willow,20
+4,7,15,Old Town,26
+4,7,15,Palace Hills,17
+4,7,15,Pepper Mill,13
+4,7,15,Safe Town,25
+4,7,15,Scenic Vista,28
+4,7,15,Southton,49
+4,7,15,Southwest,35
+4,7,15,Terrapin Springs,17
+4,7,15,West Parton,22
+4,7,15,Weston,45
+4,7,16,Broadview,33
+4,7,16,Chapparal,24
+4,7,16,Cheddarford,20
+4,7,16,Downtown,48
+4,7,16,East Parton,13
+4,7,16,Easton,18
+4,7,16,Northwest,29
+4,7,16,Oak Willow,23
+4,7,16,Old Town,24
+4,7,16,Palace Hills,18
+4,7,16,Pepper Mill,16
+4,7,16,Safe Town,20
+4,7,16,Scenic Vista,36
+4,7,16,Southton,44
+4,7,16,Southwest,41
+4,7,16,Terrapin Springs,27
+4,7,16,West Parton,24
+4,7,16,Weston,48
+4,7,17,Broadview,29
+4,7,17,Chapparal,17
+4,7,17,Cheddarford,23
+4,7,17,Downtown,58
+4,7,17,East Parton,6
+4,7,17,Easton,7
+4,7,17,Northwest,19
+4,7,17,Oak Willow,12
+4,7,17,Old Town,28
+4,7,17,Palace Hills,22
+4,7,17,Pepper Mill,9
+4,7,17,Safe Town,19
+4,7,17,Scenic Vista,27
+4,7,17,Southton,44
+4,7,17,Southwest,27
+4,7,17,Terrapin Springs,21
+4,7,17,West Parton,17
+4,7,17,Weston,40
+4,7,17,Wilson Forest,1
+4,7,18,Broadview,27
+4,7,18,Chapparal,31
+4,7,18,Cheddarford,45
+4,7,18,Downtown,66
+4,7,18,East Parton,17
+4,7,18,Easton,13
+4,7,18,Northwest,52
+4,7,18,Oak Willow,19
+4,7,18,Old Town,37
+4,7,18,Palace Hills,32
+4,7,18,Pepper Mill,17
+4,7,18,Safe Town,18
+4,7,18,Scenic Vista,52
+4,7,18,Southton,63
+4,7,18,Southwest,51
+4,7,18,Terrapin Springs,42
+4,7,18,UNKNOWN,2
+4,7,18,West Parton,38
+4,7,18,Weston,56
+4,7,18,Wilson Forest,1
+4,7,19,Broadview,24
+4,7,19,Chapparal,12
+4,7,19,Cheddarford,13
+4,7,19,Downtown,35
+4,7,19,East Parton,8
+4,7,19,Easton,8
+4,7,19,Northwest,30
+4,7,19,Oak Willow,13
+4,7,19,Old Town,21
+4,7,19,Palace Hills,10
+4,7,19,Pepper Mill,7
+4,7,19,Safe Town,10
+4,7,19,Scenic Vista,20
+4,7,19,Southton,37
+4,7,19,Southwest,26
+4,7,19,Terrapin Springs,21
+4,7,19,West Parton,12
+4,7,19,Weston,30
+4,7,19,Wilson Forest,1
+4,7,20,Broadview,27
+4,7,20,Chapparal,14
+4,7,20,Cheddarford,13
+4,7,20,Downtown,32
+4,7,20,East Parton,7
+4,7,20,Easton,12
+4,7,20,Northwest,15
+4,7,20,Oak Willow,9
+4,7,20,Old Town,15
+4,7,20,Palace Hills,9
+4,7,20,Pepper Mill,11
+4,7,20,Safe Town,14
+4,7,20,Scenic Vista,25
+4,7,20,Southton,33
+4,7,20,Southwest,34
+4,7,20,Terrapin Springs,26
+4,7,20,West Parton,13
+4,7,20,Weston,39
+4,7,21,Broadview,14
+4,7,21,Chapparal,7
+4,7,21,Cheddarford,12
+4,7,21,Downtown,22
+4,7,21,East Parton,3
+4,7,21,Easton,5
+4,7,21,Northwest,10
+4,7,21,Oak Willow,6
+4,7,21,Old Town,17
+4,7,21,Palace Hills,9
+4,7,21,Pepper Mill,4
+4,7,21,Safe Town,6
+4,7,21,Scenic Vista,23
+4,7,21,Southton,13
+4,7,21,Southwest,17
+4,7,21,Terrapin Springs,9
+4,7,21,West Parton,5
+4,7,21,Weston,16
+4,7,21,Wilson Forest,1
+4,7,22,Broadview,10
+4,7,22,Chapparal,5
+4,7,22,Cheddarford,5
+4,7,22,Downtown,7
+4,7,22,East Parton,4
+4,7,22,Easton,3
+4,7,22,Northwest,8
+4,7,22,Oak Willow,8
+4,7,22,Old Town,7
+4,7,22,Palace Hills,6
+4,7,22,Pepper Mill,4
+4,7,22,Safe Town,2
+4,7,22,Scenic Vista,3
+4,7,22,Southton,6
+4,7,22,Southwest,10
+4,7,22,Terrapin Springs,2
+4,7,22,West Parton,9
+4,7,22,Weston,9
+4,7,23,Broadview,10
+4,7,23,Chapparal,6
+4,7,23,Cheddarford,6
+4,7,23,Downtown,13
+4,7,23,East Parton,2
+4,7,23,Easton,1
+4,7,23,Northwest,8
+4,7,23,Oak Willow,5
+4,7,23,Old Town,7
+4,7,23,Palace Hills,6
+4,7,23,Pepper Mill,2
+4,7,23,Safe Town,3
+4,7,23,Scenic Vista,7
+4,7,23,Southton,4
+4,7,23,Southwest,9
+4,7,23,Terrapin Springs,5
+4,7,23,West Parton,9
+4,7,23,Weston,10
+4,8,0,Broadview,3
+4,8,0,Chapparal,1
+4,8,0,Downtown,13
+4,8,0,East Parton,1
+4,8,0,Northwest,3
+4,8,0,Oak Willow,5
+4,8,0,Old Town,3
+4,8,0,Pepper Mill,4
+4,8,0,Safe Town,6
+4,8,0,Scenic Vista,4
+4,8,0,Southton,8
+4,8,0,Southwest,2
+4,8,0,Terrapin Springs,5
+4,8,0,West Parton,2
+4,8,0,Weston,10
+4,8,1,Cheddarford,1
+4,8,1,Downtown,1
+4,8,1,East Parton,1
+4,8,1,Northwest,1
+4,8,1,Oak Willow,2
+4,8,1,Palace Hills,1
+4,8,1,Pepper Mill,1
+4,8,1,Safe Town,2
+4,8,1,Scenic Vista,1
+4,8,1,Southton,2
+4,8,1,Southwest,1
+4,8,1,Terrapin Springs,1
+4,8,1,West Parton,1
+4,8,1,Weston,3
+4,8,2,Broadview,2
+4,8,2,Chapparal,1
+4,8,2,Cheddarford,2
+4,8,2,Downtown,3
+4,8,2,East Parton,2
+4,8,2,Easton,3
+4,8,2,Northwest,1
+4,8,2,Oak Willow,4
+4,8,2,Old Town,1
+4,8,2,Pepper Mill,2
+4,8,2,Safe Town,2
+4,8,2,Scenic Vista,3
+4,8,2,Southton,6
+4,8,2,Southwest,1
+4,8,2,Terrapin Springs,2
+4,8,2,West Parton,3
+4,8,2,Weston,2
+4,8,3,Broadview,3
+4,8,3,Chapparal,1
+4,8,3,Cheddarford,2
+4,8,3,Downtown,10
+4,8,3,East Parton,3
+4,8,3,Easton,4
+4,8,3,Northwest,6
+4,8,3,Oak Willow,4
+4,8,3,Old Town,4
+4,8,3,Palace Hills,1
+4,8,3,Pepper Mill,3
+4,8,3,Safe Town,2
+4,8,3,Scenic Vista,4
+4,8,3,Southton,4
+4,8,3,Southwest,6
+4,8,3,Terrapin Springs,2
+4,8,3,West Parton,6
+4,8,3,Weston,5
+4,8,4,Broadview,5
+4,8,4,Chapparal,4
+4,8,4,Cheddarford,8
+4,8,4,Downtown,10
+4,8,4,East Parton,2
+4,8,4,Easton,3
+4,8,4,Northwest,4
+4,8,4,Oak Willow,3
+4,8,4,Old Town,6
+4,8,4,Palace Hills,4
+4,8,4,Pepper Mill,3
+4,8,4,Safe Town,2
+4,8,4,Scenic Vista,8
+4,8,4,Southton,9
+4,8,4,Southwest,3
+4,8,4,Terrapin Springs,7
+4,8,4,West Parton,5
+4,8,4,Weston,10
+4,8,5,Broadview,5
+4,8,5,Chapparal,4
+4,8,5,Cheddarford,5
+4,8,5,Downtown,13
+4,8,5,East Parton,5
+4,8,5,Easton,4
+4,8,5,Northwest,5
+4,8,5,Oak Willow,6
+4,8,5,Old Town,4
+4,8,5,Palace Hills,2
+4,8,5,Pepper Mill,2
+4,8,5,Safe Town,7
+4,8,5,Scenic Vista,11
+4,8,5,Southton,10
+4,8,5,Southwest,12
+4,8,5,Terrapin Springs,6
+4,8,5,West Parton,2
+4,8,5,Weston,12
+4,8,6,Broadview,8
+4,8,6,Chapparal,6
+4,8,6,Cheddarford,12
+4,8,6,Downtown,18
+4,8,6,East Parton,6
+4,8,6,Easton,3
+4,8,6,Northwest,10
+4,8,6,Oak Willow,9
+4,8,6,Old Town,10
+4,8,6,Palace Hills,6
+4,8,6,Pepper Mill,5
+4,8,6,Safe Town,9
+4,8,6,Scenic Vista,9
+4,8,6,Southton,15
+4,8,6,Southwest,9
+4,8,6,Terrapin Springs,12
+4,8,6,West Parton,8
+4,8,6,Weston,21
+4,8,7,Broadview,51
+4,8,7,Chapparal,28
+4,8,7,Cheddarford,38
+4,8,7,Downtown,83
+4,8,7,East Parton,10
+4,8,7,Easton,21
+4,8,7,Northwest,59
+4,8,7,Oak Willow,28
+4,8,7,Old Town,61
+4,8,7,Palace Hills,43
+4,8,7,Pepper Mill,22
+4,8,7,Safe Town,33
+4,8,7,Scenic Vista,52
+4,8,7,Southton,71
+4,8,7,Southwest,48
+4,8,7,Terrapin Springs,48
+4,8,7,UNKNOWN,2
+4,8,7,West Parton,36
+4,8,7,Weston,95
+4,8,7,Wilson Forest,2
+4,8,8,<Location with-held due to contract>,3
+4,8,8,Broadview,25
+4,8,8,Chapparal,12
+4,8,8,Cheddarford,27
+4,8,8,Downtown,56
+4,8,8,East Parton,14
+4,8,8,Easton,17
+4,8,8,Northwest,53
+4,8,8,Oak Willow,15
+4,8,8,Old Town,39
+4,8,8,Palace Hills,40
+4,8,8,Pepper Mill,10
+4,8,8,Safe Town,19
+4,8,8,Scenic Vista,41
+4,8,8,Southton,46
+4,8,8,Southwest,26
+4,8,8,Terrapin Springs,17
+4,8,8,UNKNOWN,2
+4,8,8,West Parton,37
+4,8,8,Weston,58
+4,8,8,Wilson Forest,1
+4,8,9,<Location with-held due to contract>,7
+4,8,9,Broadview,28
+4,8,9,Chapparal,17
+4,8,9,Cheddarford,38
+4,8,9,Downtown,101
+4,8,9,East Parton,16
+4,8,9,Easton,10
+4,8,9,Northwest,72
+4,8,9,Oak Willow,12
+4,8,9,Old Town,36
+4,8,9,Palace Hills,77
+4,8,9,Pepper Mill,16
+4,8,9,Safe Town,21
+4,8,9,Scenic Vista,25
+4,8,9,Southton,68
+4,8,9,Southwest,45
+4,8,9,Terrapin Springs,19
+4,8,9,West Parton,43
+4,8,9,Weston,99
+4,8,9,Wilson Forest,1
+4,8,10,<Location with-held due to contract>,5
+4,8,10,Broadview,4
+4,8,10,Chapparal,4
+4,8,10,Cheddarford,13
+4,8,10,Downtown,35
+4,8,10,Easton,2
+4,8,10,Northwest,20
+4,8,10,Oak Willow,6
+4,8,10,Old Town,11
+4,8,10,Palace Hills,28
+4,8,10,Pepper Mill,4
+4,8,10,Safe Town,9
+4,8,10,Scenic Vista,17
+4,8,10,Southton,28
+4,8,10,Southwest,10
+4,8,10,Terrapin Springs,5
+4,8,10,West Parton,20
+4,8,10,Weston,28
+4,8,11,<Location with-held due to contract>,4
+4,8,11,Broadview,8
+4,8,11,Chapparal,8
+4,8,11,Cheddarford,12
+4,8,11,Downtown,28
+4,8,11,East Parton,5
+4,8,11,Easton,2
+4,8,11,Northwest,26
+4,8,11,Oak Willow,8
+4,8,11,Old Town,12
+4,8,11,Palace Hills,26
+4,8,11,Pepper Mill,1
+4,8,11,Safe Town,10
+4,8,11,Scenic Vista,21
+4,8,11,Southton,31
+4,8,11,Southwest,10
+4,8,11,Terrapin Springs,5
+4,8,11,West Parton,17
+4,8,11,Weston,28
+4,8,12,<Location with-held due to contract>,2
+4,8,12,Broadview,12
+4,8,12,Chapparal,3
+4,8,12,Cheddarford,21
+4,8,12,Downtown,50
+4,8,12,East Parton,6
+4,8,12,Easton,5
+4,8,12,Northwest,16
+4,8,12,Oak Willow,4
+4,8,12,Old Town,20
+4,8,12,Palace Hills,37
+4,8,12,Pepper Mill,11
+4,8,12,Safe Town,7
+4,8,12,Scenic Vista,19
+4,8,12,Southton,37
+4,8,12,Southwest,12
+4,8,12,Terrapin Springs,11
+4,8,12,West Parton,24
+4,8,12,Weston,37
+4,8,13,<Location with-held due to contract>,3
+4,8,13,Broadview,22
+4,8,13,Chapparal,18
+4,8,13,Cheddarford,46
+4,8,13,Downtown,102
+4,8,13,East Parton,21
+4,8,13,Easton,14
+4,8,13,Northwest,86
+4,8,13,Oak Willow,9
+4,8,13,Old Town,65
+4,8,13,Palace Hills,65
+4,8,13,Pepper Mill,17
+4,8,13,Safe Town,28
+4,8,13,Scenic Vista,71
+4,8,13,Southton,97
+4,8,13,Southwest,79
+4,8,13,Terrapin Springs,29
+4,8,13,West Parton,55
+4,8,13,Weston,110
+4,8,13,Wilson Forest,1
+4,8,14,<Location with-held due to contract>,6
+4,8,14,Broadview,47
+4,8,14,Chapparal,32
+4,8,14,Cheddarford,88
+4,8,14,Downtown,171
+4,8,14,East Parton,42
+4,8,14,Easton,54
+4,8,14,Northwest,108
+4,8,14,Oak Willow,19
+4,8,14,Old Town,90
+4,8,14,Palace Hills,128
+4,8,14,Pepper Mill,24
+4,8,14,Safe Town,37
+4,8,14,Scenic Vista,83
+4,8,14,Southton,151
+4,8,14,Southwest,136
+4,8,14,Terrapin Springs,50
+4,8,14,West Parton,80
+4,8,14,Weston,169
+4,8,14,Wilson Forest,4
+4,8,15,<Location with-held due to contract>,1
+4,8,15,Broadview,44
+4,8,15,Chapparal,18
+4,8,15,Cheddarford,60
+4,8,15,Downtown,124
+4,8,15,East Parton,32
+4,8,15,Easton,20
+4,8,15,Northwest,76
+4,8,15,Oak Willow,9
+4,8,15,Old Town,51
+4,8,15,Palace Hills,100
+4,8,15,Pepper Mill,25
+4,8,15,Safe Town,25
+4,8,15,Scenic Vista,70
+4,8,15,Southton,100
+4,8,15,Southwest,95
+4,8,15,Terrapin Springs,39
+4,8,15,UNKNOWN,1
+4,8,15,West Parton,71
+4,8,15,Weston,117
+4,8,15,Wilson Forest,1
+4,8,16,<Location with-held due to contract>,1
+4,8,16,Broadview,34
+4,8,16,Chapparal,16
+4,8,16,Cheddarford,25
+4,8,16,Downtown,56
+4,8,16,East Parton,11
+4,8,16,Easton,20
+4,8,16,Northwest,44
+4,8,16,Oak Willow,9
+4,8,16,Old Town,32
+4,8,16,Palace Hills,58
+4,8,16,Pepper Mill,8
+4,8,16,Safe Town,14
+4,8,16,Scenic Vista,38
+4,8,16,Southton,42
+4,8,16,Southwest,57
+4,8,16,Terrapin Springs,21
+4,8,16,UNKNOWN,1
+4,8,16,West Parton,32
+4,8,16,Weston,68
+4,8,17,<Location with-held due to contract>,6
+4,8,17,Broadview,26
+4,8,17,Chapparal,13
+4,8,17,Cheddarford,48
+4,8,17,Downtown,63
+4,8,17,East Parton,22
+4,8,17,Easton,18
+4,8,17,Northwest,39
+4,8,17,Oak Willow,13
+4,8,17,Old Town,23
+4,8,17,Palace Hills,35
+4,8,17,Pepper Mill,12
+4,8,17,Safe Town,17
+4,8,17,Scenic Vista,25
+4,8,17,Southton,45
+4,8,17,Southwest,41
+4,8,17,Terrapin Springs,20
+4,8,17,West Parton,23
+4,8,17,Weston,48
+4,8,18,<Location with-held due to contract>,7
+4,8,18,Broadview,30
+4,8,18,Chapparal,14
+4,8,18,Cheddarford,29
+4,8,18,Downtown,68
+4,8,18,East Parton,13
+4,8,18,Easton,9
+4,8,18,Northwest,48
+4,8,18,Oak Willow,6
+4,8,18,Old Town,41
+4,8,18,Palace Hills,59
+4,8,18,Pepper Mill,14
+4,8,18,Safe Town,13
+4,8,18,Scenic Vista,46
+4,8,18,Southton,65
+4,8,18,Southwest,55
+4,8,18,Terrapin Springs,21
+4,8,18,West Parton,24
+4,8,18,Weston,71
+4,8,18,Wilson Forest,1
+4,8,19,<Location with-held due to contract>,5
+4,8,19,Broadview,29
+4,8,19,Chapparal,14
+4,8,19,Cheddarford,41
+4,8,19,Downtown,98
+4,8,19,East Parton,18
+4,8,19,Easton,20
+4,8,19,Northwest,62
+4,8,19,Oak Willow,7
+4,8,19,Old Town,26
+4,8,19,Palace Hills,73
+4,8,19,Pepper Mill,10
+4,8,19,Safe Town,17
+4,8,19,Scenic Vista,37
+4,8,19,Southton,60
+4,8,19,Southwest,60
+4,8,19,Terrapin Springs,21
+4,8,19,West Parton,43
+4,8,19,Weston,85
+4,8,20,Broadview,21
+4,8,20,Chapparal,15
+4,8,20,Cheddarford,13
+4,8,20,Downtown,35
+4,8,20,East Parton,6
+4,8,20,Easton,5
+4,8,20,Northwest,36
+4,8,20,Oak Willow,7
+4,8,20,Old Town,19
+4,8,20,Palace Hills,32
+4,8,20,Pepper Mill,6
+4,8,20,Safe Town,6
+4,8,20,Scenic Vista,33
+4,8,20,Southton,41
+4,8,20,Southwest,34
+4,8,20,Terrapin Springs,16
+4,8,20,West Parton,22
+4,8,20,Weston,47
+4,8,21,<Location with-held due to contract>,3
+4,8,21,Broadview,16
+4,8,21,Chapparal,9
+4,8,21,Cheddarford,10
+4,8,21,Downtown,24
+4,8,21,East Parton,6
+4,8,21,Easton,9
+4,8,21,Northwest,26
+4,8,21,Old Town,15
+4,8,21,Palace Hills,12
+4,8,21,Safe Town,3
+4,8,21,Scenic Vista,10
+4,8,21,Southton,25
+4,8,21,Southwest,29
+4,8,21,Terrapin Springs,6
+4,8,21,West Parton,12
+4,8,21,Weston,27
+4,8,22,Broadview,12
+4,8,22,Chapparal,8
+4,8,22,Cheddarford,6
+4,8,22,Downtown,14
+4,8,22,East Parton,6
+4,8,22,Easton,1
+4,8,22,Northwest,21
+4,8,22,Old Town,14
+4,8,22,Palace Hills,16
+4,8,22,Safe Town,4
+4,8,22,Scenic Vista,14
+4,8,22,Southton,16
+4,8,22,Southwest,16
+4,8,22,Terrapin Springs,13
+4,8,22,West Parton,3
+4,8,22,Weston,20
+4,8,22,Wilson Forest,1
+4,8,23,<Location with-held due to contract>,2
+4,8,23,Broadview,12
+4,8,23,Chapparal,10
+4,8,23,Cheddarford,33
+4,8,23,Downtown,52
+4,8,23,East Parton,14
+4,8,23,Easton,26
+4,8,23,Northwest,37
+4,8,23,Old Town,11
+4,8,23,Palace Hills,32
+4,8,23,Pepper Mill,6
+4,8,23,Safe Town,11
+4,8,23,Scenic Vista,36
+4,8,23,Southton,37
+4,8,23,Southwest,32
+4,8,23,Terrapin Springs,21
+4,8,23,West Parton,17
+4,8,23,Weston,35
+4,8,23,Wilson Forest,2
+4,9,0,<Location with-held due to contract>,1
+4,9,0,Broadview,13
+4,9,0,Chapparal,4
+4,9,0,Cheddarford,28
+4,9,0,Downtown,71
+4,9,0,East Parton,19
+4,9,0,Easton,16
+4,9,0,Northwest,39
+4,9,0,Oak Willow,11
+4,9,0,Old Town,24
+4,9,0,Palace Hills,32
+4,9,0,Pepper Mill,10
+4,9,0,Safe Town,26
+4,9,0,Scenic Vista,25
+4,9,0,Southton,67
+4,9,0,Southwest,60
+4,9,0,Terrapin Springs,13
+4,9,0,West Parton,26
+4,9,0,Weston,62
+4,9,0,Wilson Forest,1
+4,9,1,<Location with-held due to contract>,1
+4,9,1,Broadview,2
+4,9,1,Chapparal,3
+4,9,1,Cheddarford,1
+4,9,1,Downtown,13
+4,9,1,East Parton,3
+4,9,1,Easton,4
+4,9,1,Northwest,2
+4,9,1,Oak Willow,3
+4,9,1,Old Town,5
+4,9,1,Palace Hills,4
+4,9,1,Pepper Mill,1
+4,9,1,Safe Town,3
+4,9,1,Scenic Vista,7
+4,9,1,Southton,10
+4,9,1,Southwest,13
+4,9,1,Terrapin Springs,2
+4,9,1,West Parton,6
+4,9,1,Weston,15
+4,9,2,<Location with-held due to contract>,1
+4,9,2,Broadview,9
+4,9,2,Chapparal,5
+4,9,2,Cheddarford,10
+4,9,2,Downtown,23
+4,9,2,East Parton,7
+4,9,2,Easton,6
+4,9,2,Northwest,11
+4,9,2,Oak Willow,7
+4,9,2,Old Town,10
+4,9,2,Palace Hills,12
+4,9,2,Pepper Mill,3
+4,9,2,Safe Town,7
+4,9,2,Scenic Vista,3
+4,9,2,Southton,23
+4,9,2,Southwest,26
+4,9,2,Terrapin Springs,7
+4,9,2,West Parton,10
+4,9,2,Weston,23
+4,9,3,<Location with-held due to contract>,1
+4,9,3,Broadview,4
+4,9,3,Chapparal,4
+4,9,3,Cheddarford,4
+4,9,3,Downtown,19
+4,9,3,East Parton,5
+4,9,3,Easton,3
+4,9,3,Northwest,14
+4,9,3,Oak Willow,5
+4,9,3,Old Town,9
+4,9,3,Palace Hills,4
+4,9,3,Pepper Mill,1
+4,9,3,Safe Town,6
+4,9,3,Scenic Vista,14
+4,9,3,Southton,24
+4,9,3,Southwest,23
+4,9,3,Terrapin Springs,5
+4,9,3,West Parton,4
+4,9,3,Weston,19
+4,9,4,Broadview,11
+4,9,4,Chapparal,6
+4,9,4,Cheddarford,10
+4,9,4,Downtown,29
+4,9,4,Easton,6
+4,9,4,Northwest,7
+4,9,4,Oak Willow,2
+4,9,4,Old Town,18
+4,9,4,Palace Hills,6
+4,9,4,Pepper Mill,1
+4,9,4,Safe Town,7
+4,9,4,Scenic Vista,18
+4,9,4,Southton,21
+4,9,4,Southwest,15
+4,9,4,Terrapin Springs,10
+4,9,4,West Parton,6
+4,9,4,Weston,27
+4,9,5,<Location with-held due to contract>,1
+4,9,5,Broadview,16
+4,9,5,Chapparal,6
+4,9,5,Cheddarford,14
+4,9,5,Downtown,33
+4,9,5,East Parton,3
+4,9,5,Easton,7
+4,9,5,Northwest,19
+4,9,5,Oak Willow,6
+4,9,5,Old Town,13
+4,9,5,Palace Hills,9
+4,9,5,Pepper Mill,5
+4,9,5,Safe Town,23
+4,9,5,Scenic Vista,19
+4,9,5,Southton,32
+4,9,5,Southwest,38
+4,9,5,Terrapin Springs,8
+4,9,5,West Parton,10
+4,9,5,Weston,31
+4,9,6,Broadview,16
+4,9,6,Chapparal,6
+4,9,6,Cheddarford,6
+4,9,6,Downtown,32
+4,9,6,East Parton,1
+4,9,6,Easton,5
+4,9,6,Northwest,21
+4,9,6,Oak Willow,1
+4,9,6,Old Town,21
+4,9,6,Palace Hills,13
+4,9,6,Pepper Mill,4
+4,9,6,Safe Town,19
+4,9,6,Scenic Vista,16
+4,9,6,Southton,22
+4,9,6,Southwest,30
+4,9,6,Terrapin Springs,9
+4,9,6,West Parton,9
+4,9,6,Weston,28
+4,9,6,Wilson Forest,1
+4,9,7,<Location with-held due to contract>,1
+4,9,7,Broadview,18
+4,9,7,Chapparal,9
+4,9,7,Cheddarford,11
+4,9,7,Downtown,25
+4,9,7,East Parton,2
+4,9,7,Easton,3
+4,9,7,Northwest,11
+4,9,7,Oak Willow,9
+4,9,7,Old Town,19
+4,9,7,Palace Hills,10
+4,9,7,Pepper Mill,2
+4,9,7,Safe Town,7
+4,9,7,Scenic Vista,20
+4,9,7,Southton,25
+4,9,7,Southwest,25
+4,9,7,Terrapin Springs,9
+4,9,7,West Parton,13
+4,9,7,Weston,30
+4,9,8,<Location with-held due to contract>,3
+4,9,8,Broadview,23
+4,9,8,Chapparal,25
+4,9,8,Cheddarford,32
+4,9,8,Downtown,53
+4,9,8,East Parton,4
+4,9,8,Easton,7
+4,9,8,Northwest,40
+4,9,8,Oak Willow,9
+4,9,8,Old Town,18
+4,9,8,Palace Hills,34
+4,9,8,Pepper Mill,3
+4,9,8,Safe Town,22
+4,9,8,Scenic Vista,44
+4,9,8,Southton,40
+4,9,8,Southwest,41
+4,9,8,Terrapin Springs,29
+4,9,8,West Parton,23
+4,9,8,Weston,57
+4,9,8,Wilson Forest,1
+4,9,9,<Location with-held due to contract>,2
+4,9,9,Broadview,16
+4,9,9,Chapparal,13
+4,9,9,Cheddarford,22
+4,9,9,Downtown,39
+4,9,9,East Parton,10
+4,9,9,Easton,10
+4,9,9,Northwest,20
+4,9,9,Oak Willow,9
+4,9,9,Old Town,20
+4,9,9,Palace Hills,17
+4,9,9,Pepper Mill,5
+4,9,9,Safe Town,20
+4,9,9,Scenic Vista,37
+4,9,9,Southton,31
+4,9,9,Southwest,30
+4,9,9,Terrapin Springs,14
+4,9,9,West Parton,15
+4,9,9,Weston,31
+4,9,9,Wilson Forest,1
+4,9,10,<Location with-held due to contract>,2
+4,9,10,Broadview,34
+4,9,10,Chapparal,16
+4,9,10,Cheddarford,26
+4,9,10,Downtown,64
+4,9,10,East Parton,10
+4,9,10,Easton,12
+4,9,10,Northwest,41
+4,9,10,Oak Willow,22
+4,9,10,Old Town,26
+4,9,10,Palace Hills,35
+4,9,10,Pepper Mill,12
+4,9,10,Safe Town,25
+4,9,10,Scenic Vista,56
+4,9,10,Southton,44
+4,9,10,Southwest,48
+4,9,10,Terrapin Springs,22
+4,9,10,West Parton,19
+4,9,10,Weston,48
+4,9,10,Wilson Forest,1
+4,9,11,<Location with-held due to contract>,1
+4,9,11,Broadview,34
+4,9,11,Chapparal,27
+4,9,11,Cheddarford,25
+4,9,11,Downtown,50
+4,9,11,East Parton,8
+4,9,11,Easton,17
+4,9,11,Northwest,44
+4,9,11,Oak Willow,24
+4,9,11,Old Town,39
+4,9,11,Palace Hills,30
+4,9,11,Pepper Mill,9
+4,9,11,Safe Town,33
+4,9,11,Scenic Vista,54
+4,9,11,Southton,49
+4,9,11,Southwest,43
+4,9,11,Terrapin Springs,30
+4,9,11,West Parton,22
+4,9,11,Weston,64
+4,9,11,Wilson Forest,1
+4,9,12,Broadview,52
+4,9,12,Chapparal,26
+4,9,12,Cheddarford,30
+4,9,12,Downtown,84
+4,9,12,East Parton,23
+4,9,12,Easton,28
+4,9,12,Northwest,63
+4,9,12,Oak Willow,34
+4,9,12,Old Town,54
+4,9,12,Palace Hills,41
+4,9,12,Pepper Mill,19
+4,9,12,Safe Town,37
+4,9,12,Scenic Vista,60
+4,9,12,Southton,61
+4,9,12,Southwest,58
+4,9,12,Terrapin Springs,43
+4,9,12,West Parton,44
+4,9,12,Weston,75
+4,9,12,Wilson Forest,1
+4,9,13,<Location with-held due to contract>,1
+4,9,13,Broadview,41
+4,9,13,Chapparal,27
+4,9,13,Cheddarford,28
+4,9,13,Downtown,44
+4,9,13,East Parton,10
+4,9,13,Easton,16
+4,9,13,Northwest,40
+4,9,13,Oak Willow,21
+4,9,13,Old Town,21
+4,9,13,Palace Hills,32
+4,9,13,Pepper Mill,11
+4,9,13,Safe Town,24
+4,9,13,Scenic Vista,56
+4,9,13,Southton,41
+4,9,13,Southwest,51
+4,9,13,Terrapin Springs,26
+4,9,13,West Parton,25
+4,9,13,Weston,49
+4,9,13,Wilson Forest,1
+4,9,14,<Location with-held due to contract>,2
+4,9,14,Broadview,32
+4,9,14,Chapparal,14
+4,9,14,Cheddarford,16
+4,9,14,Downtown,39
+4,9,14,East Parton,10
+4,9,14,Easton,13
+4,9,14,Northwest,25
+4,9,14,Oak Willow,29
+4,9,14,Old Town,25
+4,9,14,Palace Hills,27
+4,9,14,Pepper Mill,6
+4,9,14,Safe Town,16
+4,9,14,Scenic Vista,38
+4,9,14,Southton,34
+4,9,14,Southwest,26
+4,9,14,Terrapin Springs,17
+4,9,14,West Parton,21
+4,9,14,Weston,41
+4,9,15,<Location with-held due to contract>,2
+4,9,15,Broadview,49
+4,9,15,Chapparal,14
+4,9,15,Cheddarford,51
+4,9,15,Downtown,83
+4,9,15,East Parton,32
+4,9,15,Easton,10
+4,9,15,Northwest,42
+4,9,15,Oak Willow,23
+4,9,15,Old Town,21
+4,9,15,Palace Hills,67
+4,9,15,Pepper Mill,7
+4,9,15,Safe Town,16
+4,9,15,Scenic Vista,22
+4,9,15,Southton,75
+4,9,15,Southwest,56
+4,9,15,Terrapin Springs,44
+4,9,15,West Parton,38
+4,9,15,Weston,88
+4,9,16,Broadview,27
+4,9,16,Chapparal,9
+4,9,16,Cheddarford,23
+4,9,16,Downtown,34
+4,9,16,East Parton,13
+4,9,16,Easton,7
+4,9,16,Northwest,26
+4,9,16,Oak Willow,30
+4,9,16,Old Town,15
+4,9,16,Palace Hills,18
+4,9,16,Pepper Mill,9
+4,9,16,Safe Town,16
+4,9,16,Scenic Vista,13
+4,9,16,Southton,35
+4,9,16,Southwest,39
+4,9,16,Terrapin Springs,20
+4,9,16,West Parton,17
+4,9,16,Weston,47
+4,9,17,<Location with-held due to contract>,1
+4,9,17,Broadview,14
+4,9,17,Chapparal,5
+4,9,17,Cheddarford,12
+4,9,17,Downtown,23
+4,9,17,East Parton,4
+4,9,17,Easton,10
+4,9,17,Northwest,7
+4,9,17,Oak Willow,8
+4,9,17,Old Town,6
+4,9,17,Palace Hills,10
+4,9,17,Pepper Mill,3
+4,9,17,Safe Town,7
+4,9,17,Scenic Vista,1
+4,9,17,Southton,22
+4,9,17,Southwest,14
+4,9,17,Terrapin Springs,7
+4,9,17,West Parton,9
+4,9,17,Weston,25
+4,9,18,Broadview,11
+4,9,18,Chapparal,5
+4,9,18,Cheddarford,6
+4,9,18,Downtown,23
+4,9,18,East Parton,8
+4,9,18,Easton,5
+4,9,18,Northwest,9
+4,9,18,Oak Willow,15
+4,9,18,Old Town,9
+4,9,18,Palace Hills,11
+4,9,18,Pepper Mill,7
+4,9,18,Safe Town,10
+4,9,18,Scenic Vista,4
+4,9,18,Southton,23
+4,9,18,Southwest,24
+4,9,18,Terrapin Springs,13
+4,9,18,West Parton,9
+4,9,18,Weston,33
+4,9,19,<Location with-held due to contract>,1
+4,9,19,Broadview,13
+4,9,19,Chapparal,10
+4,9,19,Cheddarford,13
+4,9,19,Downtown,26
+4,9,19,East Parton,6
+4,9,19,Easton,6
+4,9,19,Northwest,12
+4,9,19,Oak Willow,14
+4,9,19,Old Town,9
+4,9,19,Palace Hills,25
+4,9,19,Pepper Mill,5
+4,9,19,Safe Town,4
+4,9,19,Scenic Vista,8
+4,9,19,Southton,23
+4,9,19,Southwest,28
+4,9,19,Terrapin Springs,3
+4,9,19,West Parton,8
+4,9,19,Weston,29
+4,9,20,Broadview,12
+4,9,20,Chapparal,4
+4,9,20,Cheddarford,10
+4,9,20,Downtown,28
+4,9,20,East Parton,3
+4,9,20,Easton,4
+4,9,20,Northwest,10
+4,9,20,Oak Willow,12
+4,9,20,Old Town,12
+4,9,20,Palace Hills,20
+4,9,20,Pepper Mill,4
+4,9,20,Safe Town,7
+4,9,20,Scenic Vista,4
+4,9,20,Southton,21
+4,9,20,Southwest,34
+4,9,20,Terrapin Springs,7
+4,9,20,West Parton,16
+4,9,20,Weston,25
+4,9,21,Broadview,8
+4,9,21,Chapparal,3
+4,9,21,Cheddarford,6
+4,9,21,Downtown,12
+4,9,21,East Parton,3
+4,9,21,Northwest,4
+4,9,21,Oak Willow,2
+4,9,21,Old Town,7
+4,9,21,Palace Hills,9
+4,9,21,Pepper Mill,2
+4,9,21,Safe Town,2
+4,9,21,Scenic Vista,3
+4,9,21,Southton,14
+4,9,21,Southwest,17
+4,9,21,Terrapin Springs,7
+4,9,21,West Parton,6
+4,9,21,Weston,6
+4,9,22,Broadview,6
+4,9,22,Chapparal,1
+4,9,22,Cheddarford,4
+4,9,22,Downtown,10
+4,9,22,East Parton,3
+4,9,22,Easton,3
+4,9,22,Northwest,5
+4,9,22,Oak Willow,3
+4,9,22,Old Town,6
+4,9,22,Palace Hills,7
+4,9,22,Pepper Mill,1
+4,9,22,Safe Town,1
+4,9,22,Scenic Vista,8
+4,9,22,Southton,12
+4,9,22,Southwest,15
+4,9,22,Terrapin Springs,6
+4,9,22,West Parton,2
+4,9,22,Weston,8
+4,9,22,Wilson Forest,1
+4,9,23,Broadview,6
+4,9,23,Chapparal,1
+4,9,23,Cheddarford,1
+4,9,23,Downtown,8
+4,9,23,East Parton,2
+4,9,23,Easton,2
+4,9,23,Northwest,1
+4,9,23,Oak Willow,2
+4,9,23,Palace Hills,5
+4,9,23,Pepper Mill,1
+4,9,23,Safe Town,1
+4,9,23,Scenic Vista,2
+4,9,23,Southton,6
+4,9,23,Southwest,5
+4,9,23,Terrapin Springs,2
+4,9,23,West Parton,2
+4,9,23,Weston,5
+4,10,0,<Location with-held due to contract>,1
+4,10,0,Broadview,22
+4,10,0,Chapparal,4
+4,10,0,Cheddarford,20
+4,10,0,Downtown,64
+4,10,0,East Parton,11
+4,10,0,Easton,6
+4,10,0,Northwest,19
+4,10,0,Oak Willow,19
+4,10,0,Old Town,19
+4,10,0,Palace Hills,16
+4,10,0,Pepper Mill,5
+4,10,0,Safe Town,13
+4,10,0,Scenic Vista,5
+4,10,0,Southton,52
+4,10,0,Southwest,46
+4,10,0,Terrapin Springs,8
+4,10,0,West Parton,19
+4,10,0,Weston,59
+4,10,1,Broadview,3
+4,10,1,Chapparal,2
+4,10,1,Cheddarford,5
+4,10,1,Downtown,7
+4,10,1,East Parton,3
+4,10,1,Easton,2
+4,10,1,Northwest,2
+4,10,1,Oak Willow,1
+4,10,1,Old Town,4
+4,10,1,Palace Hills,2
+4,10,1,Southton,11
+4,10,1,Southwest,7
+4,10,1,Terrapin Springs,1
+4,10,1,West Parton,2
+4,10,1,Weston,7
+4,10,1,Wilson Forest,1
+4,10,2,<Location with-held due to contract>,2
+4,10,2,Broadview,1
+4,10,2,Cheddarford,1
+4,10,2,Downtown,3
+4,10,2,Easton,3
+4,10,2,Northwest,3
+4,10,2,Oak Willow,4
+4,10,2,Old Town,3
+4,10,2,Palace Hills,1
+4,10,2,Safe Town,2
+4,10,2,Scenic Vista,2
+4,10,2,Southton,5
+4,10,2,Southwest,5
+4,10,2,West Parton,4
+4,10,2,Weston,9
+4,10,3,<Location with-held due to contract>,2
+4,10,3,Broadview,11
+4,10,3,Chapparal,5
+4,10,3,Cheddarford,6
+4,10,3,Downtown,17
+4,10,3,East Parton,4
+4,10,3,Easton,4
+4,10,3,Northwest,1
+4,10,3,Oak Willow,10
+4,10,3,Old Town,5
+4,10,3,Palace Hills,6
+4,10,3,Pepper Mill,5
+4,10,3,Safe Town,7
+4,10,3,Scenic Vista,3
+4,10,3,Southton,21
+4,10,3,Southwest,23
+4,10,3,Terrapin Springs,2
+4,10,3,West Parton,6
+4,10,3,Weston,25
+4,10,4,Broadview,19
+4,10,4,Chapparal,6
+4,10,4,Cheddarford,5
+4,10,4,Downtown,28
+4,10,4,East Parton,3
+4,10,4,Easton,2
+4,10,4,Northwest,8
+4,10,4,Oak Willow,13
+4,10,4,Old Town,9
+4,10,4,Palace Hills,6
+4,10,4,Pepper Mill,7
+4,10,4,Safe Town,2
+4,10,4,Scenic Vista,8
+4,10,4,Southton,34
+4,10,4,Southwest,24
+4,10,4,Terrapin Springs,4
+4,10,4,West Parton,6
+4,10,4,Weston,29
+4,10,5,<Location with-held due to contract>,1
+4,10,5,Broadview,22
+4,10,5,Chapparal,4
+4,10,5,Cheddarford,20
+4,10,5,Downtown,51
+4,10,5,East Parton,8
+4,10,5,Easton,5
+4,10,5,Northwest,14
+4,10,5,Oak Willow,17
+4,10,5,Old Town,15
+4,10,5,Palace Hills,8
+4,10,5,Pepper Mill,6
+4,10,5,Safe Town,13
+4,10,5,Scenic Vista,3
+4,10,5,Southton,35
+4,10,5,Southwest,45
+4,10,5,Terrapin Springs,10
+4,10,5,UNKNOWN,1
+4,10,5,West Parton,12
+4,10,5,Weston,43
+4,10,6,Broadview,8
+4,10,6,Cheddarford,9
+4,10,6,Downtown,15
+4,10,6,East Parton,3
+4,10,6,Easton,1
+4,10,6,Northwest,5
+4,10,6,Oak Willow,7
+4,10,6,Old Town,5
+4,10,6,Palace Hills,9
+4,10,6,Pepper Mill,6
+4,10,6,Safe Town,6
+4,10,6,Scenic Vista,7
+4,10,6,Southton,19
+4,10,6,Southwest,19
+4,10,6,Terrapin Springs,5
+4,10,6,West Parton,4
+4,10,6,Weston,14
+4,10,7,<Location with-held due to contract>,1
+4,10,7,Broadview,38
+4,10,7,Chapparal,13
+4,10,7,Cheddarford,26
+4,10,7,Downtown,70
+4,10,7,East Parton,21
+4,10,7,Easton,17
+4,10,7,Northwest,32
+4,10,7,Oak Willow,30
+4,10,7,Old Town,28
+4,10,7,Palace Hills,52
+4,10,7,Pepper Mill,13
+4,10,7,Safe Town,4
+4,10,7,Scenic Vista,19
+4,10,7,Southton,67
+4,10,7,Southwest,69
+4,10,7,Terrapin Springs,27
+4,10,7,UNKNOWN,2
+4,10,7,West Parton,32
+4,10,7,Weston,76
+4,10,7,Wilson Forest,2
+4,10,8,Broadview,20
+4,10,8,Chapparal,11
+4,10,8,Cheddarford,12
+4,10,8,Downtown,37
+4,10,8,East Parton,6
+4,10,8,Easton,9
+4,10,8,Northwest,21
+4,10,8,Oak Willow,17
+4,10,8,Old Town,12
+4,10,8,Palace Hills,13
+4,10,8,Pepper Mill,6
+4,10,8,Safe Town,6
+4,10,8,Scenic Vista,6
+4,10,8,Southton,27
+4,10,8,Southwest,28
+4,10,8,Terrapin Springs,14
+4,10,8,West Parton,18
+4,10,8,Weston,32
+4,10,9,<Location with-held due to contract>,5
+4,10,9,Broadview,53
+4,10,9,Chapparal,14
+4,10,9,Cheddarford,22
+4,10,9,Downtown,67
+4,10,9,East Parton,16
+4,10,9,Easton,14
+4,10,9,Northwest,30
+4,10,9,Oak Willow,21
+4,10,9,Old Town,26
+4,10,9,Palace Hills,42
+4,10,9,Pepper Mill,14
+4,10,9,Safe Town,8
+4,10,9,Scenic Vista,12
+4,10,9,Southton,49
+4,10,9,Southwest,47
+4,10,9,Terrapin Springs,22
+4,10,9,West Parton,24
+4,10,9,Weston,67
+4,10,9,Wilson Forest,1
+4,10,10,<Location with-held due to contract>,3
+4,10,10,Broadview,29
+4,10,10,Chapparal,6
+4,10,10,Cheddarford,14
+4,10,10,Downtown,46
+4,10,10,East Parton,7
+4,10,10,Easton,13
+4,10,10,Northwest,11
+4,10,10,Oak Willow,27
+4,10,10,Old Town,17
+4,10,10,Palace Hills,18
+4,10,10,Pepper Mill,7
+4,10,10,Safe Town,3
+4,10,10,Scenic Vista,6
+4,10,10,Southton,31
+4,10,10,Southwest,34
+4,10,10,Terrapin Springs,18
+4,10,10,West Parton,14
+4,10,10,Weston,41
+4,10,11,<Location with-held due to contract>,1
+4,10,11,Broadview,30
+4,10,11,Chapparal,12
+4,10,11,Cheddarford,25
+4,10,11,Downtown,48
+4,10,11,East Parton,13
+4,10,11,Easton,13
+4,10,11,Northwest,25
+4,10,11,Oak Willow,15
+4,10,11,Old Town,31
+4,10,11,Palace Hills,36
+4,10,11,Pepper Mill,10
+4,10,11,Safe Town,13
+4,10,11,Scenic Vista,11
+4,10,11,Southton,50
+4,10,11,Southwest,52
+4,10,11,Terrapin Springs,20
+4,10,11,UNKNOWN,1
+4,10,11,West Parton,21
+4,10,11,Weston,61
