@@ -27,16 +27,11 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row, keyword_c
   else:
     return data
 
-  matched = False
   for keyword in keywords:
     lowered_keyword = keyword.lower()
     if (lowered_message.find(' ' + lowered_keyword + ' ') != -1) or (lowered_message.find(lowered_keyword + ' ') != -1) or (lowered_message.find(' ' + lowered_keyword) != -1):
       row['keyword_category'] = keyword_category
       data = data.append(row)
-      matched = True
-
-  if not matched:
-    data = data.append(row)
   return data
 
 def keyword_count_by_location_grouped_by_hour(data, writeCSV):
