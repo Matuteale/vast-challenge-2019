@@ -1,8 +1,10 @@
 import pandas as pd
 import csv
 
-full_utilities_keywords = ['Sewer/water', 'Bridge', 'Gas', 'Power', 'Injured', 'Hurt', 'Smoke', 'No power', 'No water', 'No gas', 'Water\'s out', 'Fatalities', 'Highway', 'Road', 'pit']
-full_problems_keywords = ['Problem', 'Issue', 'Damage', 'Accident', 'Closed', 'Destroyed', 'Broken', 'Out of', 'Urgent', 'Help', 'Vibrate', 'Disaster']
+full_transportation_keywords = ['road', 'roadway', 'street', 'bridge', 'drive', 'avenue', 'bus line reopen/open', 'megabus reopen/open', 'metro', 'subway', 'sub', 'trains', 'train', 'transit']
+full_utilities_keywords = ['power', 'water', 'gas', 'electricity', 'emergency power', 'emergency generator', 'black out', 'blackout', 'blackoutnyc', 'con ed', 'con edison', 'coned', 'dark', 'darker', 'downed electrical wires', 'POWER down', 'POWER not expected', 'POWER off', 'POWER out', 'POWER outage', 'goodbye POWER', 'knock out POWER', 'lose POWER', 'losing POWER', 'lost POWER', 'njpower', 'no POWER', 'noPOWER', 'off the grid', 'powerless', 'shut off POWER', 'taken POWER', 'transformer exploding', 'transformer explosion', 'w/o POWER', 'wait POWER return', 'without POWER', 'candle']
+full_early_recovery_keywords = ['shelter', 'snuggled up safely inside', 'stay home', 'stay inside', ' stay safe', 'staysafe', 'evacuate', 'evacuated', 'evacuating', 'evacuation', 'evacuee', 'head away from', 'leave home', 'leaving city', 'police ask leave', 'seeking refuge', 'sleep outside', 'stay with friends', 'hotel', 'housing', 'shelter', 'ambulance', 'emergency response', 'escape', 'escaped', 'escaping', 'first aid', 'rescue', 'rescued', 'rescuing']
+full_food_keywords = ['feed victims', 'food trucks', 'free lunch', 'free meals', 'get meals', 'refugee meal', 'nutri', 'nutrition']
 
 def count_user_tweets(data):
   grouped = data.groupby('account')
@@ -38,17 +40,20 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row):
   return data
 
 def keyword_count_by_location_grouped_by_hour(data, writeCSV):
-  utilities_keywords = full_utilities_keywords
-  problems_keywords = full_problems_keywords
   data['keyword'] = ''
-  new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword': []})
+  data['keyword_category'] = ''
+  new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword_category': [], 'keyword': []})
   for i, row in data.iterrows():
-    new_data = findKeywordsInMessageAndAppendToData(new_data, utilities_keywords, row['message'], row)
-    new_data = findKeywordsInMessageAndAppendToData(new_data, problems_keywords, row['message'], row)
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row)
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row)
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_early_recovery_keywords, row['message'], row)
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row)
+    if i % 100 == 0:
+      print('row: ' + str(i))
 
   print(new_data)
-  times = pd.DatetimeIndex(new_data.time)
-  grouped = new_data.groupby([times.month, times.day, times.hour, 'location', 'keyword'])['keyword'].count()
+  new_data.index = pd.to_datetime(new_data['time'])
+  grouped = new_data.groupby([pd.Grouper(freq='5Min'), 'location', 'keyword'])['keyword'].count()
   print(grouped)
 
   if writeCSV:
