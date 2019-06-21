@@ -1,12 +1,12 @@
 import pandas as pd
 import csv
 from fuzzywuzzy import fuzz
-from difflib import SequenceMatcher
 
 full_transportation_keywords = ['road', 'roadway', 'street', 'bridge', 'drive', 'avenue', 'bus line reopen/open', 'megabus reopen/open', 'metro', 'subway', 'sub', 'trains', 'train', 'transit']
 full_utilities_keywords = ['power', 'electricity', 'emergency power', 'emergency generator', 'black out', 'blackout', 'blackoutnyc', 'con ed', 'con edison', 'coned', 'dark', 'darker', 'downed electrical wires', 'POWER down', 'POWER not expected', 'POWER off', 'POWER out', 'POWER outage', 'goodbye POWER', 'knock out POWER', 'lose POWER', 'losing POWER', 'lost POWER', 'njpower', 'no POWER', 'noPOWER', 'off the grid', 'powerless', 'shut off POWER', 'taken POWER', 'transformer exploding', 'transformer explosion', 'w/o POWER', 'wait POWER return', 'without POWER', 'candle']
 full_early_recovery_keywords = ['shelter', 'snuggled up safely inside', 'stay home', 'stay inside', ' stay safe', 'staysafe', 'evacuate', 'evacuated', 'evacuating', 'evacuation', 'evacuee', 'head away from', 'leave home', 'leaving city', 'police ask leave', 'seeking refuge', 'sleep outside', 'stay with friends', 'hotel', 'housing', 'shelter', 'ambulance', 'emergency response', 'escape', 'escaped', 'escaping', 'first aid', 'rescue', 'rescued', 'rescuing']
 full_food_keywords = ['sewer', 'sewage', 'water', 'boil', 'smell' ]
+full_retweets_keywords = ['re:']
 
 def count_user_tweets(data):
   grouped = data.groupby('account')
@@ -31,6 +31,30 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row, keyword_c
       row['keyword_category'] = keyword_category
       data = data.append(row)
   return data
+
+def keyword_count_by_location_grouped_by_hour_retweets_only(data, writeCSV):
+  data['keyword_category'] = ''
+  new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword_category': []})
+  for i, row in data.iterrows():
+    if type(row['message']) is not str or row['message'].find('re:') == 0:
+      new_data = findKeywordsInMessageAndAppendToData(new_data, full_retweets_keywords, row['message'], row, 'retweets')
+      continue
+    if i % 500 == 0:
+      print('row: ' + str(i))
+
+  print(new_data)
+  new_data.index = pd.to_datetime(new_data['time'])
+  grouped = new_data.groupby([pd.Grouper(freq='10Min'), 'location', 'keyword_category'])['keyword_category'].count()
+  print(grouped)
+
+  if writeCSV:
+    path = './output/keyword_count_by_location_grouped_by_hour_retweets_only.csv'
+    outcsv = open(path, 'w')
+    outcsv.truncate()
+    writer = csv.writer(outcsv)
+    writer.writerow(['time', 'location', 'keyword_category', 'count'])
+    outcsv.close()
+    grouped.to_csv(path, mode = 'a', header = False)
 
 def keyword_count_by_location_grouped_by_hour(data, writeCSV):
   data['keyword_category'] = ''
