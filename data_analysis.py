@@ -2,9 +2,9 @@ import pandas as pd
 import csv
 
 full_transportation_keywords = ['road', 'roadway', 'street', 'bridge', 'drive', 'avenue', 'bus line reopen/open', 'megabus reopen/open', 'metro', 'subway', 'sub', 'trains', 'train', 'transit']
-full_utilities_keywords = ['power', 'water', 'gas', 'electricity', 'emergency power', 'emergency generator', 'black out', 'blackout', 'blackoutnyc', 'con ed', 'con edison', 'coned', 'dark', 'darker', 'downed electrical wires', 'POWER down', 'POWER not expected', 'POWER off', 'POWER out', 'POWER outage', 'goodbye POWER', 'knock out POWER', 'lose POWER', 'losing POWER', 'lost POWER', 'njpower', 'no POWER', 'noPOWER', 'off the grid', 'powerless', 'shut off POWER', 'taken POWER', 'transformer exploding', 'transformer explosion', 'w/o POWER', 'wait POWER return', 'without POWER', 'candle']
+full_utilities_keywords = ['power', 'electricity', 'emergency power', 'emergency generator', 'black out', 'blackout', 'blackoutnyc', 'con ed', 'con edison', 'coned', 'dark', 'darker', 'downed electrical wires', 'POWER down', 'POWER not expected', 'POWER off', 'POWER out', 'POWER outage', 'goodbye POWER', 'knock out POWER', 'lose POWER', 'losing POWER', 'lost POWER', 'njpower', 'no POWER', 'noPOWER', 'off the grid', 'powerless', 'shut off POWER', 'taken POWER', 'transformer exploding', 'transformer explosion', 'w/o POWER', 'wait POWER return', 'without POWER', 'candle']
 full_early_recovery_keywords = ['shelter', 'snuggled up safely inside', 'stay home', 'stay inside', ' stay safe', 'staysafe', 'evacuate', 'evacuated', 'evacuating', 'evacuation', 'evacuee', 'head away from', 'leave home', 'leaving city', 'police ask leave', 'seeking refuge', 'sleep outside', 'stay with friends', 'hotel', 'housing', 'shelter', 'ambulance', 'emergency response', 'escape', 'escaped', 'escaping', 'first aid', 'rescue', 'rescued', 'rescuing']
-full_food_keywords = ['feed victims', 'food trucks', 'free lunch', 'free meals', 'get meals', 'refugee meal', 'nutri', 'nutrition']
+full_food_keywords = ['sewer', 'sewage', 'water', 'boil', 'smell' ]
 
 def count_user_tweets(data):
   grouped = data.groupby('account')
@@ -40,10 +40,10 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
   for i, row in data.iterrows():
     if type(row['message']) is not str or row['message'].find('re:') == 0:
       continue
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row, 'transportation')
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row, 'utilities')
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_early_recovery_keywords, row['message'], row, 'early_recovery')
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row, 'food')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row, 'road')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row, 'power')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_early_recovery_keywords, row['message'], row, 'rescue')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row, 'sewer')
     if i % 500 == 0:
       print('row: ' + str(i))
 
