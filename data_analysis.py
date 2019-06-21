@@ -43,7 +43,7 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
   data['keyword_category'] = ''
   new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword_category': []})
   for i, row in data.iterrows():
-    if row['message'].find('re:') == 0:
+    if type(row['message']) is not str or row['message'].find('re:') == 0:
       continue
     new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row, 'transportation')
     new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row, 'utilities')
@@ -51,7 +51,7 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
     new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row, 'food')
     if i % 100 == 0:
       print('row: ' + str(i))
-      if i % 10000 == 0 and i != 0:
+      if i > 10000:
         break
 
   print(new_data)
