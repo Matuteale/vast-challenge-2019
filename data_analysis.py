@@ -20,7 +20,7 @@ def users_that_tweet_at_diff_locations(data):
   filtered = grouped_unique_locations[grouped_unique_locations > 1]
   print(filtered)
 
-def findKeywordsInMessageAndAppendToData(data, keywords, message, row):
+def findKeywordsInMessageAndAppendToData(data, keywords, message, row, keyword_category):
   lowered_message = ''
   if type(message) is str:
     lowered_message = message.lower()
@@ -31,7 +31,7 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row):
   for keyword in keywords:
     lowered_keyword = keyword.lower()
     if (lowered_message.find(' ' + lowered_keyword + ' ') != -1) or (lowered_message.find(lowered_keyword + ' ') != -1) or (lowered_message.find(' ' + lowered_keyword) != -1):
-      row['keyword'] = lowered_keyword
+      row['keyword_category'] = keyword_category
       data = data.append(row)
       matched = True
 
@@ -40,20 +40,19 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row):
   return data
 
 def keyword_count_by_location_grouped_by_hour(data, writeCSV):
-  data['keyword'] = ''
   data['keyword_category'] = ''
-  new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword_category': [], 'keyword': []})
+  new_data = pd.DataFrame({'time':[], 'location': [], 'account': [], 'message': [], 'keyword_category': []})
   for i, row in data.iterrows():
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row)
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row)
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_early_recovery_keywords, row['message'], row)
-    new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row)
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_transportation_keywords, row['message'], row, 'transportation')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_utilities_keywords, row['message'], row, 'utilities')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_early_recovery_keywords, row['message'], row, 'early_recovery')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row, 'food')
     if i % 100 == 0:
       print('row: ' + str(i))
 
   print(new_data)
   new_data.index = pd.to_datetime(new_data['time'])
-  grouped = new_data.groupby([pd.Grouper(freq='5Min'), 'location', 'keyword'])['keyword'].count()
+  grouped = new_data.groupby([pd.Grouper(freq='5Min'), 'location', 'keyword_category'])['keyword_category'].count()
   print(grouped)
 
   if writeCSV:
@@ -61,7 +60,7 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
     outcsv = open(path, 'w')
     outcsv.truncate()
     writer = csv.writer(outcsv)
-    writer.writerow(['month', 'day', 'hour', 'location', 'keyword', 'count'])
+    writer.writerow(['time', 'location', 'keyword_category', 'count'])
     outcsv.close()
     grouped.to_csv(path, mode = 'a', header = False)
 
