@@ -51,6 +51,8 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
     new_data = findKeywordsInMessageAndAppendToData(new_data, full_food_keywords, row['message'], row, 'food')
     if i % 100 == 0:
       print('row: ' + str(i))
+      if i % 10000 == 0:
+        break
 
   print(new_data)
   new_data.index = pd.to_datetime(new_data['time'])
