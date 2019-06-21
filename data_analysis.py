@@ -1,5 +1,7 @@
 import pandas as pd
 import csv
+from fuzzywuzzy import fuzz
+from difflib import SequenceMatcher
 
 full_transportation_keywords = ['road', 'roadway', 'street', 'bridge', 'drive', 'avenue', 'bus line reopen/open', 'megabus reopen/open', 'metro', 'subway', 'sub', 'trains', 'train', 'transit']
 full_utilities_keywords = ['power', 'electricity', 'emergency power', 'emergency generator', 'black out', 'blackout', 'blackoutnyc', 'con ed', 'con edison', 'coned', 'dark', 'darker', 'downed electrical wires', 'POWER down', 'POWER not expected', 'POWER off', 'POWER out', 'POWER outage', 'goodbye POWER', 'knock out POWER', 'lose POWER', 'losing POWER', 'lost POWER', 'njpower', 'no POWER', 'noPOWER', 'off the grid', 'powerless', 'shut off POWER', 'taken POWER', 'transformer exploding', 'transformer explosion', 'w/o POWER', 'wait POWER return', 'without POWER', 'candle']
@@ -21,15 +23,11 @@ def users_that_tweet_at_diff_locations(data):
   print(filtered)
 
 def findKeywordsInMessageAndAppendToData(data, keywords, message, row, keyword_category):
-  lowered_message = ''
-  if type(message) is str:
-    lowered_message = message.lower()
-  else:
+  if type(message) is not str:
     return data
 
   for keyword in keywords:
-    lowered_keyword = keyword.lower()
-    if (lowered_message.find(' ' + lowered_keyword + ' ') != -1) or (lowered_message.find(lowered_keyword + ' ') != -1) or (lowered_message.find(' ' + lowered_keyword) != -1):
+    if fuzz.partial_ratio(message.lower(), keyword.lower()) >= 60:
       row['keyword_category'] = keyword_category
       data = data.append(row)
   return data
@@ -49,7 +47,7 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
 
   print(new_data)
   new_data.index = pd.to_datetime(new_data['time'])
-  grouped = new_data.groupby([pd.Grouper(freq='5Min'), 'location', 'keyword_category'])['keyword_category'].count()
+  grouped = new_data.groupby([pd.Grouper(freq='10Min'), 'location', 'keyword_category'])['keyword_category'].count()
   print(grouped)
 
   if writeCSV:
