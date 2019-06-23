@@ -79,8 +79,6 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
     new_data = findKeywordsInMessageAndAppendToData(new_data, sewer_and_water, row['message'], row, 'sewer')
     if i % 500 == 0:
       print('row: ' + str(i))
-    if i > 500:
-      break
 
   print(new_data)
   new_data.index = pd.to_datetime(new_data['time'])
