@@ -92,15 +92,16 @@ def influencers_info(data, writeCSV, topNumber):
   data_without_retweets = data.loc[data['message'].str.find('re:') != 0]
   grouped_by_account = data_without_retweets.groupby('account')['message'].count()
   top_account_tweets = grouped_by_account.nlargest(topNumber)
-  finalDataFrame = pd.DataFrame(OrderedDict({'account':[], 'tweets': [], 'mentions': [], 'times_retweeted': []}))
+  finalDataFrame = pd.DataFrame({'account':[], 'tweets': [], 'mentions': [], 'times_retweeted': []})
   data_retweets_only = data.loc[data['message'].str.find('re:') == 0]
   for account, tweet_count in top_account_tweets.iteritems():
     mentions = data.loc[(data['account'] != account) & (data['message'].str.find('@' + account) != -1)]
     tweets = data_without_retweets.loc[data_without_retweets['account'] == account]
     tweets['message'] = 're: ' + tweets['message'].astype(str)
     retweets = data_retweets_only.loc[(data_retweets_only['account'] != account) & (data_retweets_only['message'].isin(tweets['message']))]
-    row = pd.DataFrame(OrderedDict({'account':[account], 'tweets': [tweet_count], 'mentions': [mentions.size], 'times_retweeted': [retweets.size]}))
+    row = pd.DataFrame({'account':[account], 'tweets': [tweet_count], 'mentions': [mentions.size], 'times_retweeted': [retweets.size]})
     finalDataFrame = finalDataFrame.append(row)
+  finalDataFrame = finalDataFrame[['account', 'tweets', 'mentions', 'times_retweeted']]
   print(finalDataFrame)
   if writeCSV:
     writeCSVFromData(finalDataFrame, './output/influencers_info.csv', ['account', 'tweets', 'mentions', 'times_retweeted'], True)
@@ -112,8 +113,8 @@ def main():
   accounts_to_filter = ['______3333_____', 'Opportunities2', 'Opportunities1', 'Syndicated5', 'CantonCoordon2', 'Syndicated4', 'Syndicated348', 'JordanWantsBac0n', 'J0rdanWantsBacon', 'JordanWantsBacon', 'handle']
   data = data.loc[~data['account'].isin(accounts_to_filter)]
 
-  keyword_count_by_location_grouped_by_hour(data, True)
-  # influencers_info(data, True, 10)
+  # keyword_count_by_location_grouped_by_hour(data, True)
+  influencers_info(data, True, 10)
   # print('\n\nCounting tweets by user...\n\n')
   # count_user_tweets(data)
   # print('\n\nCounting retweets by user...\n\n')
