@@ -94,7 +94,7 @@ def influencers_info(data, writeCSV, topNumber):
   for account, tweet_count in top_account_tweets.iteritems():
     mentions = data.loc[(data['account'] != account) & (data['message'].str.find('@' + account) != -1)]
     tweets = data_without_retweets.loc[data_without_retweets['account'] == account]
-    tweets['message'] = 're: ' + tweets['message'].astype(str)
+    tweets.loc[:, 'message'] = 're: ' + tweets.loc[:, 'message'].astype(str)
     retweets = data_retweets_only.loc[(data_retweets_only['account'] != account) & (data_retweets_only['message'].isin(tweets['message']))]
     row = pd.DataFrame(OrderedDict({'account':[account], 'tweets': [tweet_count], 'mentions': [mentions.size], 'times_retweeted': [retweets.size]}))
     finalDataFrame = finalDataFrame.append(row)
@@ -104,9 +104,9 @@ def influencers_info(data, writeCSV, topNumber):
 
 def main():
   print('\n\nReading csv data...\n\n')
-  data = pd.read_csv('./data/MC3/Yint-no-retweets.csv')
+  data = pd.read_csv('./data/MC3/Yint.csv')
   data.info()
-  accounts_to_filter = ['______3333_____', 'Opportunities2', 'Opportunities1']
+  accounts_to_filter = ['______3333_____', 'Opportunities2', 'Opportunities1', 'Syndicated5', 'CantonCoordon2', 'Syndicated4', 'Syndicated348', 'JordanWantsBac0n', 'J0rdanWantsBacon', 'JordanWantsBacon', 'handle']
   data = data.loc[~data['account'].isin(accounts_to_filter)]
 
   influencers_info(data, True, 10)
