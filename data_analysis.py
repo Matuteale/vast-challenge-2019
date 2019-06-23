@@ -98,7 +98,7 @@ def user_count_by_location_grouped_by_hour(data, writeCSV):
 
 def main():
   print('\n\nReading csv data...\n\n')
-  data = pd.read_csv('./data/MC3/Yint.csv')
+  data = pd.read_csv('./data/MC3/Yint-no-retweets.csv')
   data.info()
   keyword_count_by_location_grouped_by_hour(data, True)
   # print('\n\nCounting tweets by user...\n\n')
