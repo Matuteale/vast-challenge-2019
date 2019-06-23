@@ -99,7 +99,7 @@ def influencers_info(data, writeCSV, topNumber):
     tweets = data_without_retweets.loc[data_without_retweets['account'] == account]
     tweets['message'] = 're: ' + tweets['message'].astype(str)
     retweets = data_retweets_only.loc[(data_retweets_only['account'] != account) & (data_retweets_only['message'].isin(tweets['message']))]
-    row = pd.DataFrame({'account':[account], 'tweets': [tweet_count], 'mentions': [mentions.size], 'times_retweeted': [retweets.size]})
+    row = pd.DataFrame({'account':[account], 'tweets': [tweet_count], 'mentions': [mentions['message'].count()], 'times_retweeted': [retweets['message'].count()]})
     finalDataFrame = finalDataFrame.append(row)
   finalDataFrame = finalDataFrame[['account', 'tweets', 'mentions', 'times_retweeted']]
   print(finalDataFrame)
@@ -112,6 +112,7 @@ def main():
   data.info()
   accounts_to_filter = ['______3333_____', 'Opportunities2', 'Opportunities1', 'Syndicated5', 'CantonCoordon2', 'Syndicated4', 'Syndicated348', 'JordanWantsBac0n', 'J0rdanWantsBacon', 'JordanWantsBacon', 'handle']
   data = data.loc[~data['account'].isin(accounts_to_filter)]
+  data.info()
 
   # keyword_count_by_location_grouped_by_hour(data, True)
   influencers_info(data, True, 10)
