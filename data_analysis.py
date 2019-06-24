@@ -133,9 +133,9 @@ def emotion_analysis_over_time(data, writeCSV):
       clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
       analysis = TextBlob(clean_tweet)
       emotion = 'neutral'
-      if analysis.sentiment.polarity > 0.5:
+      if analysis.sentiment.polarity > 0.2:
           emotion = 'positive'
-      elif analysis.sentiment.polarity < 0.5:
+      elif analysis.sentiment.polarity < 0.2:
           emotion = 'negative'
       row['emotion'] = emotion
     if i % 500 == 0:
@@ -155,9 +155,9 @@ def emotion_analysis_per_user(data, writeCSV):
     if type(row['message']) is str:
       clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
       analysis = TextBlob(clean_tweet)
-      if analysis.sentiment.polarity > 0.5:
+      if analysis.sentiment.polarity > 0.2:
         data.loc[i, "positive"] = row['positive'] + 1
-      elif analysis.sentiment.polarity < 0.5:
+      elif analysis.sentiment.polarity < 0.2:
         data.loc[i, "negative"] = row['negative'] + 1
       else:
         data.loc[i, "neutral"] = row['neutral'] + 1
@@ -180,11 +180,11 @@ def main():
   data.info()
 
   emotion_analysis_per_user(data, True)
-  # emotion_analysis_over_time(data, True)
+  emotion_analysis_over_time(data, True)
   # keyword_count_by_location_grouped_by_hour(data, True)
 
   # keyword_count_by_location_grouped_by_hour(data, True)
-  # influencers_info(data, True, 10)
+  influencers_info(data, True, 10)
   # print('\n\nCounting tweets by user...\n\n')
   # count_user_tweets(data)
   # print('\n\nCounting retweets by user...\n\n')
