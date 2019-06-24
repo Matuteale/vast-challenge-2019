@@ -12,6 +12,7 @@ roads_and_bridges = ['airport', 'avenue', 'bridge', 'bus', 'congestion', 'drive'
 medical = ['medical', 'red cross', 'food', 'emergency', 'urgent', 'evacuate', 'evacuating', 'evacuation', 'protection', 'ambulance', 'escape', 'first aid', 'rescue', 'rescuing', 'dead', 'death', 'kill', 'help', 'help out', 'help with', 'volunteer', 'volunteering', 'explosion', 'exploding', 'explode', 'victim', 'fatalities']
 buildings = ['collapse', 'housing', 'house']
 full_retweets_keywords = ['re:']
+earth_quake = ['shake', 'wobble', 'quiver', 'earthquake', 'quake', 'seismic', 'emergency', 'rumble']
 
 def writeCSVFromData(data, path, header, omitIndex):
   outcsv = open(path, 'w')
@@ -80,6 +81,7 @@ def keyword_count_by_location_grouped_by_hour(data, writeCSV):
     new_data = findKeywordsInMessageAndAppendToData(new_data, power, row['message'], row, 'power')
     new_data = findKeywordsInMessageAndAppendToData(new_data, medical, row['message'], row, 'rescue')
     new_data = findKeywordsInMessageAndAppendToData(new_data, sewer_and_water, row['message'], row, 'sewer')
+    new_data = findKeywordsInMessageAndAppendToData(new_data, earth_quake, row['message'], row, 'earthquake')
     if i % 500 == 0:
       print('row: ' + str(i))
 
@@ -131,9 +133,9 @@ def emotion_analysis(data, writeCSV):
       clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
       analysis = TextBlob(clean_tweet)
       emotion = 'neutral'
-      if analysis.sentiment.polarity > 0:
+      if analysis.sentiment.polarity > 0.5:
           emotion = 'positive'
-      elif analysis.sentiment.polarity < 0:
+      elif analysis.sentiment.polarity < 0.5:
           emotion = 'negative'
       row['emotion'] = emotion
     if i % 500 == 0:
@@ -146,7 +148,6 @@ def emotion_analysis(data, writeCSV):
     writeCSVFromData(grouped, './output/emotion_analysis_over_time.csv', ['time', 'emotion', 'count'], False)
 
 
-
 def main():
   print('\n\nReading csv data...\n\n')
   data = pd.read_csv('./data/MC3/Yint.csv')
@@ -155,7 +156,7 @@ def main():
   data = data.loc[~data['account'].isin(accounts_to_filter)]
   data.info()
 
-  emotion_analysis(data, True)
+  keyword_count_by_location_grouped_by_hour(data, True)
 
   # keyword_count_by_location_grouped_by_hour(data, True)
   # influencers_info(data, True, 10)
