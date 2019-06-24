@@ -171,6 +171,21 @@ def emotion_analysis_per_user(data, writeCSV):
   if writeCSV:
     writeCSVFromData(grouped, './output/emotion_analysis_per_user.csv', ['account', 'neutral', 'positive', 'negative'], False)
 
+def mention_analysis(data, mentioned_account, writeCSV):
+  mentions = data.loc[(data['account'] != mentioned_account) & (data['message'].str.find('@' + mentioned_account) != -1)]
+  word_list = pd.DataFrame({'word':[]})
+  for i, row in mentions.iterrows():
+    if type(row['message']) is str:
+      message_words = re.sub('['+string.punctuation+']', '', row['message']).split()
+      for word in message_words:
+        word_list = word_list.append(pd.DataFrame({'word': [word]}))
+    if i % 500 == 0:
+      print('row: ' + str(i))
+  grouped = word_list.groupby(['word'])['word'].count().sort_values(ascending=False)
+  print(grouped)
+  if writeCSV:
+    writeCSVFromData(grouped, './output/mention_analysis.csv', ['word', 'count'], False)
+
 def main():
   print('\n\nReading csv data...\n\n')
   data = pd.read_csv('./data/MC3/Yint.csv')
@@ -179,12 +194,12 @@ def main():
   data = data.loc[~data['account'].isin(accounts_to_filter)]
   data.info()
 
-  emotion_analysis_per_user(data, True)
-  emotion_analysis_over_time(data, True)
+  mention_analysis(data, 'AlwaysSafePowerCompany', True)
+  # emotion_analysis_over_time(data, True)
   # keyword_count_by_location_grouped_by_hour(data, True)
 
   # keyword_count_by_location_grouped_by_hour(data, True)
-  influencers_info(data, True, 10)
+  # influencers_info(data, True, 10)
   # print('\n\nCounting tweets by user...\n\n')
   # count_user_tweets(data)
   # print('\n\nCounting retweets by user...\n\n')
