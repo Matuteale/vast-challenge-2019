@@ -173,6 +173,26 @@ def emotion_analysis_per_user(data, writeCSV):
 
 def mention_analysis(data, mentioned_account, writeCSV):
   mentions = data.loc[(data['account'] != mentioned_account) & (data['message'].str.find('@' + mentioned_account) != -1)]
+  finalDataFrame = pd.DataFrame({'positive':[], 'negative': [], 'neutral': []})
+  for i, row in mentions.iterrows():
+    if type(row['message']) is str:
+      clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
+      analysis = TextBlob(clean_tweet)
+      if analysis.sentiment.polarity > 0.2:
+        finalDataFrame = finalDataFrame.append(pd.DataFrame({'positive':[1], 'negative': [0], 'neutral': [0]}))
+      elif analysis.sentiment.polarity < 0.2:
+         finalDataFrame = finalDataFrame.append(pd.DataFrame({'positive':[0], 'negative': [1], 'neutral': [0]}))
+      else:
+        finalDataFrame = finalDataFrame.append(pd.DataFrame({'positive':[0], 'negative': [0], 'neutral': [1]}))
+    if i % 500 == 0:
+      print('row: ' + str(i))
+  grouped = finalDataFrame.sum().sort_values(ascending=False)
+  print(grouped)
+  # if writeCSV:
+    # writeCSVFromData(grouped, './output/mention_analysis.csv', ['word', 'count'], False)
+
+def words_near_word_mention(data, word, writeCSV):
+  mentions = data.loc[data['message'].str.find(word) != -1]
   word_list = pd.DataFrame({'word':[]})
   for i, row in mentions.iterrows():
     if type(row['message']) is str:
@@ -184,7 +204,7 @@ def mention_analysis(data, mentioned_account, writeCSV):
   grouped = word_list.groupby(['word'])['word'].count().sort_values(ascending=False)
   print(grouped)
   if writeCSV:
-    writeCSVFromData(grouped, './output/mention_analysis.csv', ['word', 'count'], False)
+    writeCSVFromData(grouped, './output/words_near_word_mention.csv', ['word', 'count'], False)
 
 def main():
   print('\n\nReading csv data...\n\n')
@@ -194,7 +214,7 @@ def main():
   data = data.loc[~data['account'].isin(accounts_to_filter)]
   data.info()
 
-  mention_analysis(data, 'AlwaysSafePowerCompany', True)
+  words_near_word_mention(data, 'fatalities', True)
   # emotion_analysis_over_time(data, True)
   # keyword_count_by_location_grouped_by_hour(data, True)
 
