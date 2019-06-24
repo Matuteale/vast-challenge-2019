@@ -142,10 +142,10 @@ def emotion_analysis(data, writeCSV):
       print('row: ' + str(i))
 
   data.index = pd.to_datetime(data['time'])
-  grouped = data.groupby([pd.Grouper(freq='10Min'), 'emotion'])['emotion'].count()
+  grouped = data.groupby(['account', 'emotion'])['emotion'].count()
   print(grouped)
   if writeCSV:
-    writeCSVFromData(grouped, './output/emotion_analysis_over_time.csv', ['time', 'emotion', 'count'], False)
+    writeCSVFromData(grouped, './output/emotion_analysis_over_time.csv', ['account', 'emotion', 'count'], False)
 
 
 def main():
@@ -156,7 +156,8 @@ def main():
   data = data.loc[~data['account'].isin(accounts_to_filter)]
   data.info()
 
-  keyword_count_by_location_grouped_by_hour(data, True)
+  emotion_analysis(data, True)
+  # keyword_count_by_location_grouped_by_hour(data, True)
 
   # keyword_count_by_location_grouped_by_hour(data, True)
   # influencers_info(data, True, 10)
