@@ -148,25 +148,28 @@ def emotion_analysis_over_time(data, writeCSV):
     writeCSVFromData(grouped, './output/emotion_analysis_over_time.csv', ['time', 'emotion', 'count'], False)
 
 def emotion_analysis_per_user(data, writeCSV):
-  data['emotion'] = 'neutral'
+  data['neutral'] = 0
+  data['positive'] = 0
+  data['negative'] = 0
   for i, row in data.iterrows():
     if type(row['message']) is str:
       clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
       analysis = TextBlob(clean_tweet)
-      emotion = 'neutral'
       if analysis.sentiment.polarity > 0.5:
-          emotion = 'positive'
+        data.loc[i, "positive"] = row['positive'] + 1
       elif analysis.sentiment.polarity < 0.5:
-          emotion = 'negative'
-      row['emotion'] = emotion
+        data.loc[i, "negative"] = row['negative'] + 1
+      else:
+        data.loc[i, "neutral"] = row['neutral'] + 1
+    else:
+      data.loc[i, "neutral"] = row['neutral'] + 1
     if i % 500 == 0:
       print('row: ' + str(i))
 
-  data.index = pd.to_datetime(data['time'])
-  grouped = data.groupby(['account', 'emotion'])['emotion'].count()
+  grouped = data.groupby(['account']).agg('sum')
   print(grouped)
   if writeCSV:
-    writeCSVFromData(grouped, './output/emotion_analysis_per_user.csv', ['account', 'emotion', 'count'], False)
+    writeCSVFromData(grouped, './output/emotion_analysis_per_user.csv', ['account', 'neutral', 'positive', 'negative'], False)
 
 def main():
   print('\n\nReading csv data...\n\n')
