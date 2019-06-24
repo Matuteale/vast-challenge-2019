@@ -50,7 +50,7 @@ def findKeywordsInMessageAndAppendToData(data, keywords, message, row, keyword_c
     return data
 
   for keyword in keywords:
-    if fuzz.partial_ratio(message.lower(), keyword.lower()) >= 60:
+    if fuzz.partial_ratio(message.lower(), keyword.lower()) >= 75:
       row['keyword_category'] = keyword_category
       data = data.append(row)
   return data
