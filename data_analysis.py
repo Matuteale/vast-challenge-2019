@@ -2,6 +2,9 @@ import pandas as pd
 import csv
 from fuzzywuzzy import fuzz
 from collections import OrderedDict
+import re
+import string
+from textblob import TextBlob
 
 sewer_and_water = ['discharged', 'discharge', 'drain', 'drainage', 'flood', 'hygiene', 'irrigation', 'pipes', 'pump', 'river', 'sanitary', 'sewage', 'sewer', 'stream', 'underground', 'wash', 'waste', 'water']
 power = ['valve', 'heat', 'gas', 'power', 'electric', 'candle', 'flashlight', 'generator', 'black out', 'blackout', 'dark', 'radiation', 'radio rays', 'energy', 'nuclear', 'fuel', 'battery', 'radiant']
@@ -106,6 +109,44 @@ def influencers_info(data, writeCSV, topNumber):
   if writeCSV:
     writeCSVFromData(finalDataFrame, './output/influencers_info.csv', ['account', 'tweets', 'mentions', 'times_retweeted'], True)
 
+def most_common_words(data, writeCSV):
+  word_list = pd.DataFrame({'word':[]})
+  for i, row in data.iterrows():
+    if type(row['message']) is str:
+      message_words = re.sub('['+string.punctuation+']', '', row['message']).split()
+      for word in message_words:
+        word_list = word_list.append(pd.DataFrame({'word': [word]}))
+    if i % 500 == 0:
+      print('row: ' + str(i))
+  grouped = word_list.groupby(['word'])['word'].count()
+  top = grouped.nlargest(1000)
+  print(top)
+  if writeCSV:
+    writeCSVFromData(top, './output/most_common_words.csv', ['word', 'count'], True)
+
+def emotion_analysis(data, writeCSV):
+  data['emotion'] = 'neutral'
+  for i, row in data.iterrows():
+    if type(row['message']) is str:
+      clean_tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", row['message']).split())
+      analysis = TextBlob(clean_tweet)
+      emotion = 'neutral'
+      if analysis.sentiment.polarity > 0:
+          emotion = 'positive'
+      elif analysis.sentiment.polarity < 0:
+          emotion = 'negative'
+      row['emotion'] = emotion
+    if i % 500 == 0:
+      print('row: ' + str(i))
+
+  data.index = pd.to_datetime(data['time'])
+  grouped = data.groupby([pd.Grouper(freq='10Min'), 'emotion'])['emotion'].count()
+  print(grouped)
+  if writeCSV:
+    writeCSVFromData(grouped, './output/emotion_analysis_over_time.csv', ['time', 'emotion', 'count'], False)
+
+
+
 def main():
   print('\n\nReading csv data...\n\n')
   data = pd.read_csv('./data/MC3/Yint.csv')
@@ -114,8 +155,10 @@ def main():
   data = data.loc[~data['account'].isin(accounts_to_filter)]
   data.info()
 
+  emotion_analysis(data, True)
+
   # keyword_count_by_location_grouped_by_hour(data, True)
-  influencers_info(data, True, 10)
+  # influencers_info(data, True, 10)
   # print('\n\nCounting tweets by user...\n\n')
   # count_user_tweets(data)
   # print('\n\nCounting retweets by user...\n\n')
